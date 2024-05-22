@@ -1,8 +1,6 @@
-### Hi there 👋
-
-I'm a PhD student deeply passionate about Artificial Intelligence (AI), constantly exploring the limitless possibilities of AI to solve real-world problems. Welcome to my GitHub space where I share my journey and the projects that excite me the most!
-
 ### 🚀 About Me
+
+I'm a PhD student in Artificial Intelligence (AI), 
 I'm currently diving deep into the world of AI, working on innovative projects and contributing to the field through research and collaboration.
 
 <details>
