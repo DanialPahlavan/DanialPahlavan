@@ -40,9 +40,13 @@ P.S: This is my secondary GitHub account 👨‍💻
 </details>
 
 ### 📈 GitHub Stats
-!Your GitHub stats
-!trophy
-!Metrics
+![](https://activity-graph.herokuapp.com/graph?username=ho33ein74&theme=github&area=true)
+<p align="center">
+  <img src="(https://github.com/ryo-ma/github-profile-trophy)">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=danialpahlavan&show_icons=true&theme=algolia&include_all_commits=true&count_private=true" />
+  <img src="http://github-readme-streak-stats.herokuapp.com?user=danialpahlavan&theme=algolia" alt="dany's GitHub Streak" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=danialpahlavan&theme=tokyonight" />
+</p>
 
 
 -----
