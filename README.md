@@ -22,7 +22,7 @@ P.S: This is my secondary GitHub account 👨‍💻
 <summary>Skills 🛠️</summary>
 <br/>
 
-- Languages: Python, R, Java, C++
+- Languages: Python, C++
 - Frameworks: TensorFlow, PyTorch, Keras
 - Tools: Jupyter Notebook, Docker, Git
 - Areas of Expertise: Machine Learning, Computer Vision, Natural Language Processing
