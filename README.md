@@ -1,4 +1,4 @@
-## Hi there 👋
+### Hi there 👋
 
 I'm a PhD student deeply passionate about Artificial Intelligence (AI), constantly exploring the limitless possibilities of AI to solve real-world problems. Welcome to my GitHub space where I share my journey and the projects that excite me the most!
 
