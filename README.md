@@ -76,9 +76,12 @@ If you find my repositories helpful and would like to support my work, consider 
   <source
     srcset="https://github-readme-stats.vercel.app/api/top-langs?username=danialpahlavan&show_icons=true&locale=en&layout=compact&theme=dark&hide=HTML,CSS,SCSS,Ruby,Jupyter%20Notebook"
     media="(prefers-color-scheme: dark)"
-  />
+
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=danialpahlavan&show_icons=true&locale=en&layout=compact&hide=HTML,CSS,SCSS,Ruby,Jupyter%20Notebook" />
 </picture>
+
+</br>
+
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=danialpahlavan&show_icons=true&theme=algolia&include_all_commits=true&count_private=true" />
   <img src="http://github-readme-streak-stats.herokuapp.com?user=danialpahlavan&theme=algolia" alt="dany's GitHub Streak" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=danialpahlavan&theme=tokyonight" />
