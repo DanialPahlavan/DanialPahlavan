@@ -72,46 +72,66 @@ If you find my repositories helpful and would like to support my work, consider 
 ### 📈 GitHub Stats
 
 <p align="center">
-  <!-- For dark theme -->
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs?username=danialpahlavan&show_icons=true&locale=en&layout=compact&theme=dark&hide=HTML,CSS,SCSS,Ruby,Jupyter%20Notebook"
-    alt="Top Languages"
-    media="(prefers-color-scheme: dark)" />
-  <!-- For light theme -->
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs?username=danialpahlavan&show_icons=true&locale=en&layout=compact&hide=HTML,CSS,SCSS,Ruby,Jupyter%20Notebook"
-    alt="Top Languages"
-    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+  <picture>
+    <!-- For dark theme -->
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/top-langs?username=danialpahlavan&show_icons=true&locale=en&layout=compact&theme=dark&hide=HTML,CSS,SCSS,Ruby,Jupyter%20Notebook"
+      media="(prefers-color-scheme: dark)" />
+    <!-- For light theme -->
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/top-langs?username=danialpahlavan&show_icons=true&locale=en&layout=compact&hide=HTML,CSS,SCSS,Ruby,Jupyter%20Notebook"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+    <img
+      src="https://github-readme-stats.vercel.app/api/top-langs?username=danialpahlavan&show_icons=true&locale=en&layout=compact&hide=HTML,CSS,SCSS,Ruby,Jupyter%20Notebook"
+      alt="Top Languages" />
+  </picture>
 </p>
 
-
-
-
-
-  <br/>
-
+<p align="center">
   <picture>
+    <!-- For dark theme -->
     <source
       srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=danialpahlavan&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"
       media="(prefers-color-scheme: dark)" />
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=danialpahlavan&show_icons=true&theme=transparent&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  </picture>
-
-  <picture>
+    <!-- For light theme -->
     <source
-      srcset="http://github-readme-streak-stats.herokuapp.com?user=danialpahlavan&theme=algolia"
-      media="(prefers-color-scheme: dark)" />
-    <img src="http://github-readme-streak-stats.herokuapp.com?user=danialpahlavan&theme=algolia&theme=transparent" alt="GitHub Streak Stats" />
-  </picture>
-
-  <picture>
-    <source
-      srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=danialpahlavan&theme=tokyonight"
-      media="(prefers-color-scheme: dark)" />
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=danialpahlavan&theme=transparent" alt="GitHub Profile Summary Cards" />
+      srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=danialpahlavan&show_icons=true&theme=transparent&include_all_commits=true&count_private=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+    <img
+      src="https://github-readme-stats-eight-theta.vercel.app/api?username=danialpahlavan&show_icons=true&theme=transparent&include_all_commits=true&count_private=true"
+      alt="GitHub Stats" />
   </picture>
 </p>
 
+<p align="center">
+  <picture>
+    <!-- For dark theme -->
+    <source
+      srcset="http://github-readme-streak-stats.herokuapp.com?user=danialpahlavan&theme=algolia"
+      media="(prefers-color-scheme: dark)" />
+    <!-- For light theme -->
+    <source
+      srcset="http://github-readme-streak-stats.herokuapp.com?user=danialpahlavan&theme=transparent"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+    <img
+      src="http://github-readme-streak-stats.herokuapp.com?user=danialpahlavan&theme=transparent"
+      alt="GitHub Streak Stats" />
+  </picture>
+</p>
 
+<p align="center">
+  <picture>
+    <!-- For dark theme -->
+    <source
+      srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=danialpahlavan&theme=tokyonight"
+      media="(prefers-color-scheme: dark)" />
+    <!-- For light theme -->
+    <source
+      srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=danialpahlavan&theme=transparent"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+    <img
+      src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=danialpahlavan&theme=transparent"
+      alt="GitHub Profile Summary Cards" />
+  </picture>
+</p>
 
------
