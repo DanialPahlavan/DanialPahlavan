@@ -72,15 +72,35 @@ If you find my repositories helpful and would like to support my work, consider 
 ### 📈 GitHub Stats
 
 <p align="center">
-  <picture>
-    <source
-      srcset="https://github-readme-stats.vercel.app/api/top-langs?username=danialpahlavan&show_icons=true&locale=en&layout=compact&theme=dark&hide=HTML,CSS,SCSS,Ruby,Jupyter%20Notebook"
-      media="(prefers-color-scheme: dark)" />
-    <img
-      src="https://github-readme-stats.vercel.app/api/top-langs?username=danialpahlavan&show_icons=true&locale=en&layout=compact&hide=HTML,CSS,SCSS,Ruby,Jupyter%20Notebook"
-      alt="Top Languages" />
-  </picture>
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs?username=danialpahlavan&show_icons=true&locale=en&layout=compact&theme=dark&hide=HTML,CSS,SCSS,Ruby,Jupyter%20Notebook"
+    alt="Top Languages"
+    class="dark-theme" />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs?username=danialpahlavan&show_icons=true&locale=en&layout=compact&hide=HTML,CSS,SCSS,Ruby,Jupyter%20Notebook"
+    alt="Top Languages"
+    class="light-theme" />
 </p>
+
+<style>
+  .dark-theme {
+    display: none;
+  }
+
+  .light-theme {
+    display: block;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .dark-theme {
+      display: block;
+    }
+
+    .light-theme {
+      display: none;
+    }
+  }
+</style>
 
 
 
