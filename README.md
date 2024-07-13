@@ -76,14 +76,15 @@ If you find my repositories helpful and would like to support my work, consider 
   <img
     src="https://github-readme-stats.vercel.app/api/top-langs?username=danialpahlavan&show_icons=true&locale=en&layout=compact&theme=dark&hide=HTML,CSS,SCSS,Ruby,Jupyter%20Notebook"
     alt="Top Languages"
-    style="display: none;"
     media="(prefers-color-scheme: dark)" />
   <!-- For light theme -->
   <img
     src="https://github-readme-stats.vercel.app/api/top-langs?username=danialpahlavan&show_icons=true&locale=en&layout=compact&hide=HTML,CSS,SCSS,Ruby,Jupyter%20Notebook"
     alt="Top Languages"
-    style="display: block;" />
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
 </p>
+
+
 
 
 
