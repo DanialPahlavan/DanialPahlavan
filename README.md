@@ -75,6 +75,7 @@ P.S: This is my secondary GitHub account 👨‍💻
 
 If you find my repositories helpful and would like to support my work, consider making a donation. Your contribution is greatly appreciated and will help me continue to develop and maintain these projects.
 
+
 ### Cryptocurrency 🪙
 - **Ethereum (ETH)**
   `0x526968dF2AB74d7B4132F8D68Cf1BE6D126c6f82`
@@ -85,8 +86,10 @@ If you find my repositories helpful and would like to support my work, consider 
 ### Other Payment Methods
 - **Webmoney**
 
-  - <a href="https://donate.webmoney.com/w/wDyvsXZ2gZfJT1Tnv39SMt"><img align="left" alt="Webmoney" width="30px" src="https://www.wmtransfer.com/img/icons/wmlogo_flat_256.png?1711979909" /></a>
+- <a href="https://donate.webmoney.com/w/wDyvsXZ2gZfJT1Tnv39SMt"><img align="left" alt="Webmoney" width="30px" src="https://www.wmtransfer.com/img/icons/wmlogo_flat_256.png?1711979909" /></a>
 
+- **ko-fi**
+<a href="https://ko-fi.com/danielpahlavan"> ko-fi</a>
 
 ### For Iranian Contributors
 - **Reymit**
