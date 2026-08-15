@@ -124,7 +124,7 @@
 
   <br/>
 
-  <!-- High-Density Telemetry Matrix (Uniform 135px Height Multi-Card Dashboard) -->
+  <!-- High-Density Telemetry Matrix (Row 1: 2 Cards • Row 2: 3 Cards) -->
   <table border="0" align="center" style="border-collapse: collapse; width: 95%;">
     <tr align="center">
       <td width="50%" align="center" style="padding: 4px;">
@@ -134,16 +134,16 @@
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DanialPahlavan&theme=tokyonight" height="135" alt="GitHub Profile Summary" />
       </td>
     </tr>
+  </table>
+  <table border="0" align="center" style="border-collapse: collapse; width: 95%;">
     <tr align="center">
-      <td width="50%" align="center" style="padding: 4px;">
+      <td width="33.33%" align="center" style="padding: 4px;">
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DanialPahlavan&theme=tokyonight" height="135" alt="Top Languages by Commit" />
       </td>
-      <td width="50%" align="center" style="padding: 4px;">
+      <td width="33.33%" align="center" style="padding: 4px;">
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DanialPahlavan&theme=tokyonight" height="135" alt="Repositories per Language" />
       </td>
-    </tr>
-    <tr align="center">
-      <td colspan="2" width="100%" align="center" style="padding: 4px;">
+      <td width="33.33%" align="center" style="padding: 4px;">
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DanialPahlavan&theme=tokyonight" height="135" alt="Productive Coding Time" />
       </td>
     </tr>
