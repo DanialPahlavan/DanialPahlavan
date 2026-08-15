@@ -1,36 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" width="100%" height="100%">
   <defs>
+    <!-- Synaptic Mesh Pattern -->
+    <pattern id="termSynapseGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#38bdf8" opacity="0.2" />
+      <line x1="2" y1="2" x2="20" y2="20" stroke="#38bdf8" stroke-width="0.3" stroke-opacity="0.08" />
+    </pattern>
+
     <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#161b22" />
+      <stop offset="50%" stop-color="#0f172a" />
       <stop offset="100%" stop-color="#0d1117" />
     </linearGradient>
+
     <style>
-      @keyframes typeLine1 { 0%, 5% { opacity: 0; } 10%, 100% { opacity: 1; } }
-      @keyframes typeLine2 { 0%, 15% { opacity: 0; } 20%, 100% { opacity: 1; } }
-      @keyframes typeLine3 { 0%, 30% { opacity: 0; } 35%, 100% { opacity: 1; } }
-      @keyframes typeLine4 { 0%, 45% { opacity: 0; } 50%, 100% { opacity: 1; } }
-      @keyframes typeLine5 { 0%, 60% { opacity: 0; } 65%, 100% { opacity: 1; } }
-      @keyframes typeLine6 { 0%, 75% { opacity: 0; } 80%, 100% { opacity: 1; } }
-      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      @keyframes typeLine1 { 0%, 4% { opacity: 0; } 8%, 100% { opacity: 1; } }
+      @keyframes typeLine2 { 0%, 14% { opacity: 0; } 18%, 100% { opacity: 1; } }
+      @keyframes typeLine3 { 0%, 28% { opacity: 0; } 32%, 100% { opacity: 1; } }
+      @keyframes typeLine4 { 0%, 44% { opacity: 0; } 48%, 100% { opacity: 1; } }
+      @keyframes typeLine5 { 0%, 60% { opacity: 0; } 64%, 100% { opacity: 1; } }
+      @keyframes typeLine6 { 0%, 76% { opacity: 0; } 80%, 100% { opacity: 1; } }
+      @keyframes blinkCursor { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
 
-      .term-bg { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; rx: 10px; }
+      .font-mono { font-family: 'Fira Code', 'JetBrains Mono', 'Consolas', monospace; }
+
+      .term-bg { fill: #070a12; stroke: #30363d; stroke-width: 1.5; rx: 10px; }
       .term-header { fill: url(#headerGrad); rx: 10px; }
-      .term-title { fill: #8b949e; font-family: 'Fira Code', 'JetBrains Mono', 'Consolas', monospace; font-size: 13px; font-weight: 500; }
-      .term-btn-red { fill: #ff5f56; }
-      .term-btn-yellow { fill: #ffbd2e; }
-      .term-btn-green { fill: #27c93f; }
+      .term-title { fill: #94a3b8; font-family: 'Fira Code', monospace; font-size: 12px; font-weight: 500; }
 
-      .term-text { font-family: 'Fira Code', 'JetBrains Mono', 'Consolas', monospace; font-size: 13.5px; }
+      .term-text { font-family: 'Fira Code', 'JetBrains Mono', monospace; font-size: 12px; }
       .prompt-user { fill: #00f2fe; font-weight: bold; }
       .prompt-at { fill: #8b949e; }
       .prompt-path { fill: #38bdf8; }
-      .prompt-cmd { fill: #f1f5f9; }
-
-      .log-info { fill: #a78bfa; }
-      .log-ok { fill: #10b981; font-weight: bold; }
-      .log-label { fill: #e2e8f0; }
-      .log-highlight { fill: #00f2fe; }
-      .log-status { fill: #38bdf8; font-weight: bold; }
+      .prompt-cmd { fill: #f8fafc; font-weight: 500; }
+      
+      .log-time { fill: #64748b; font-size: 11px; }
+      .log-torch { fill: #f59e0b; font-weight: bold; }
+      .log-latent { fill: #38bdf8; font-weight: bold; }
+      .log-vision { fill: #00f2fe; font-weight: bold; }
+      .log-quant { fill: #10b981; font-weight: bold; }
+      .log-agent { fill: #c084fc; font-weight: bold; }
+      
+      .log-label { fill: #cbd5e1; }
+      .log-highlight { fill: #00f2fe; font-weight: 600; }
       .log-active { fill: #22c55e; font-weight: bold; }
 
       .line-1 { animation: typeLine1 8s infinite; }
@@ -39,66 +50,69 @@
       .line-4 { animation: typeLine4 8s infinite; }
       .line-5 { animation: typeLine5 8s infinite; }
       .line-6 { animation: typeLine6 8s infinite; }
-      .cursor { animation: blink 1s infinite; fill: #00f2fe; }
+      .cursor { animation: blinkCursor 1s infinite; fill: #00f2fe; }
     </style>
   </defs>
 
   <!-- Window Container -->
-  <rect width="800" height="320" class="term-bg" />
+  <rect width="800" height="330" class="term-bg" />
+  <!-- Synaptic Mesh Overlay -->
+  <rect width="800" height="330" fill="url(#termSynapseGrid)" rx="10" />
   
   <!-- Header Bar -->
   <path d="M 0 10 C 0 4.477 4.477 0 10 0 L 790 0 C 795.523 0 800 4.477 800 10 L 800 36 L 0 36 Z" class="term-header" />
   <line x1="0" y1="36" x2="800" y2="36" stroke="#30363d" stroke-width="1" />
 
   <!-- Window Control Buttons -->
-  <circle cx="20" cy="18" r="6" class="term-btn-red" />
-  <circle cx="40" cy="18" r="6" class="term-btn-yellow" />
-  <circle cx="60" cy="18" r="6" class="term-btn-green" />
+  <circle cx="20" cy="18" r="5.5" fill="#ff5f56" />
+  <circle cx="38" cy="18" r="5.5" fill="#ffbd2e" />
+  <circle cx="56" cy="18" r="5.5" fill="#27c93f" />
 
   <!-- Window Title -->
-  <text x="400" y="23" text-anchor="middle" class="term-title">danial@cluster-01: ~/ai_systems/autonomous_orchestrator</text>
+  <text x="400" y="23" text-anchor="middle" class="term-title">danial@cluster-01: ~/neural_systems/agent_inference.py --cuda</text>
+  <text x="780" y="23" text-anchor="end" class="font-mono" font-size="10" fill="#38bdf8" font-weight="600">[GPU 0 • CUDA 12.x]</text>
 
   <!-- Terminal Output Body -->
   <g transform="translate(24, 66)">
     <!-- Line 1: Command Invocation -->
     <g class="line-1">
       <text y="0" class="term-text">
-        <tspan class="prompt-user">danial</tspan><tspan class="prompt-at">@</tspan><tspan class="prompt-user">cluster-01</tspan><tspan class="prompt-at">:</tspan><tspan class="prompt-path">~/ai_systems</tspan><tspan class="prompt-cmd">$ python3 -m ai_agents.orchestrate --mode react --accel cuda</tspan>
+        <tspan class="prompt-user">danial</tspan><tspan class="prompt-at">@</tspan><tspan class="prompt-user">cluster-01</tspan><tspan class="prompt-at">:</tspan><tspan class="prompt-path">~/neural_systems</tspan><tspan class="prompt-cmd">$ python3 -m torch.distributed.run --nproc_per_node=4 agent_brain.py</tspan>
       </text>
     </g>
 
-    <!-- Line 2: Core Initializing -->
-    <g class="line-2" transform="translate(0, 32)">
+    <!-- Line 2: VRAM Allocation & Tensor Cores -->
+    <g class="line-2" transform="translate(0, 34)">
       <text y="0" class="term-text">
-        <tspan class="log-info">[INFO]</tspan> <tspan class="log-label">Initializing Autonomous Agent Multi-Step Reasoning Engine...</tspan>
+        <tspan class="log-time">[21:26:01.102] </tspan><tspan class="log-torch">[TORCH]</tspan> <tspan class="log-label">Allocated VRAM: 24.2 GB / 32.0 GB • Tensor Cores: </tspan><tspan class="log-highlight">ACTIVE (FP16 / INT8)</tspan>
       </text>
     </g>
 
-    <!-- Line 3: RAG Knowledge Vector Store -->
-    <g class="line-3" transform="translate(0, 64)">
+    <!-- Line 3: Latent Vector Store -->
+    <g class="line-3" transform="translate(0, 68)">
       <text y="0" class="term-text">
-        <tspan class="log-ok">[OK]</tspan> <tspan class="log-label">Dense Knowledge Vector Store (RAG / Atlas) Loaded • Hit Rate: </tspan><tspan class="log-highlight">98.4%</tspan>
+        <tspan class="log-time">[21:26:01.428] </tspan><tspan class="log-latent">[LATENT]</tspan> <tspan class="log-label">Dense Vector Index Loaded: 1.2M Embeddings • cos(θ) = </tspan><tspan class="log-highlight">0.984 (Top-K)</tspan>
       </text>
     </g>
 
-    <!-- Line 4: Vision & Restoration Pipeline -->
-    <g class="line-4" transform="translate(0, 96)">
+    <!-- Line 4: Vision ConvNet Forward Pass -->
+    <g class="line-4" transform="translate(0, 102)">
       <text y="0" class="term-text">
-        <tspan class="log-ok">[OK]</tspan> <tspan class="log-label">YOLOv11 &amp; GAN Media Restoration Active • Throughput: </tspan><tspan class="log-highlight">60+ FPS (CUDA 12.x)</tspan>
+        <tspan class="log-time">[21:26:01.785] </tspan><tspan class="log-vision">[VISION]</tspan> <tspan class="log-label">YOLOv11 &amp; GAN Forward Pass: </tspan><tspan class="log-highlight">60+ FPS</tspan> <tspan class="log-label">• Validation Loss ℒ_val = 0.0142</tspan>
       </text>
     </g>
 
-    <!-- Line 5: 1-Bit Quantization Engine -->
-    <g class="line-5" transform="translate(0, 128)">
+    <!-- Line 5: 1-Bit BitNet Quantization -->
+    <g class="line-5" transform="translate(0, 136)">
       <text y="0" class="term-text">
-        <tspan class="log-ok">[OK]</tspan> <tspan class="log-label">1-Bit Neural Quantization Compiler: </tspan><tspan class="log-highlight">4.8x Memory Acceleration</tspan> <tspan class="log-label">[ENABLED]</tspan>
+        <tspan class="log-time">[21:26:02.110] </tspan><tspan class="log-quant">[QUANT]</tspan> <tspan class="log-label">BitNet 1.58b Synaptic Quantization: </tspan><tspan class="log-highlight">4.8x Memory Acceleration</tspan> <tspan class="log-label">[ENABLED]</tspan>
       </text>
     </g>
 
-    <!-- Line 6: Operational Status Loop -->
-    <g class="line-6" transform="translate(0, 160)">
+    <!-- Line 6: Multi-Step Reasoning Agent Loop -->
+    <g class="line-6" transform="translate(0, 170)">
       <text y="0" class="term-text">
-        <tspan class="log-status">[STATUS]</tspan> <tspan class="log-label">Closed-Loop ReAct Reasoning Loops: </tspan><tspan class="log-active">ALL SYSTEMS OPERATIONAL</tspan>
+        <tspan class="log-time">[21:26:02.435] </tspan><tspan class="log-agent">[AGENT]</tspan> <tspan class="log-label">Closed-Loop ReAct Reasoning Synapses: </tspan><tspan class="log-active">ALL NODES FIRING</tspan>
         <tspan class="cursor" dx="6">█</tspan>
       </text>
     </g>

@@ -1,47 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 490" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 510" width="100%" height="100%">
   <defs>
+    <!-- Synaptic Mesh Pattern -->
+    <pattern id="execSynapseGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#38bdf8" opacity="0.15" />
+      <line x1="2" y1="2" x2="24" y2="24" stroke="#38bdf8" stroke-width="0.3" stroke-opacity="0.08" />
+    </pattern>
+
+    <!-- Gradients -->
     <linearGradient id="dossierHeaderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#161b22" />
+      <stop offset="50%" stop-color="#0f172a" />
       <stop offset="100%" stop-color="#0d1117" />
     </linearGradient>
-    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#161b22" />
-      <stop offset="100%" stop-color="#0d1117" />
+
+    <linearGradient id="cardGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b26" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#070a12" stop-opacity="0.98" />
     </linearGradient>
+
+    <!-- Glow Filter -->
     <filter id="dossierGlow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="3" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
+
     <style>
-      @keyframes cursorBlink {
-        0%, 49% { opacity: 1; }
-        50%, 100% { opacity: 0; }
-      }
-      .dossier-bg { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; rx: 10px; }
-      .dossier-header { fill: url(#dossierHeaderGrad); rx: 10px; }
-      .dossier-title { fill: #8b949e; font-family: 'Fira Code', 'JetBrains Mono', monospace; font-size: 12.5px; font-weight: 600; }
+      @keyframes cursorBlink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
       
       .font-mono { font-family: 'Fira Code', 'JetBrains Mono', 'Consolas', monospace; }
       .font-sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; }
+
+      .dossier-bg { fill: #070a12; stroke: #30363d; stroke-width: 1.5; rx: 10px; }
+      .dossier-header { fill: url(#dossierHeaderGrad); rx: 10px; }
+      .dossier-title { fill: #94a3b8; font-family: 'Fira Code', monospace; font-size: 12px; font-weight: 600; }
       
       .prompt-cmd { fill: #00f2fe; font-weight: bold; }
-      .text-dim { fill: #8b949e; }
-      .text-light { fill: #f1f5f9; }
-      .text-cyan { fill: #00f2fe; font-weight: bold; }
-      .text-purple { fill: #c084fc; font-weight: bold; }
-      .text-emerald { fill: #34d399; font-weight: bold; }
-      .text-sky { fill: #38bdf8; font-weight: bold; }
-      .text-amber { fill: #f59e0b; font-weight: bold; }
+      .pillar-box { fill: url(#cardGradDark); stroke-width: 1.2; rx: 6px; }
+      .pillar-header { font-family: 'Fira Code', monospace; font-size: 10.5px; font-weight: bold; letter-spacing: 0.5px; }
+      .pillar-desc { font-family: 'Segoe UI', -apple-system, sans-serif; font-size: 11px; fill: #cbd5e1; }
+      .pillar-chip { font-family: 'Fira Code', monospace; font-size: 8.5px; font-weight: 700; }
 
-      .pillar-box { fill: url(#cardGrad); stroke: #30363d; stroke-width: 1.2; rx: 6px; }
-      .pillar-header { font-family: 'Fira Code', monospace; font-size: 11px; font-weight: bold; }
-      .pillar-desc { font-family: 'Segoe UI', sans-serif; font-size: 11.5px; fill: #cbd5e1; }
+      .hud-bracket { fill: none; stroke-width: 1.2; stroke-linecap: round; }
       .cursor-blink { animation: cursorBlink 1s infinite; fill: #00f2fe; }
     </style>
   </defs>
 
   <!-- Container Box -->
-  <rect width="850" height="490" class="dossier-bg" />
+  <rect width="850" height="510" class="dossier-bg" />
+  <!-- Synaptic Mesh Overlay -->
+  <rect width="850" height="510" fill="url(#execSynapseGrid)" rx="10" />
 
   <!-- Window Header Bar -->
   <path d="M 0 10 C 0 4.477 4.477 0 10 0 L 840 0 C 845.523 0 850 4.477 850 10 L 850 34 L 0 34 Z" class="dossier-header" />
@@ -53,86 +60,108 @@
   <circle cx="56" cy="17" r="5.5" fill="#27c93f" />
 
   <!-- Terminal Window Title -->
-  <text x="425" y="22" text-anchor="middle" class="dossier-title">danial@ai-lab: ~/executive_overview.sh --mode deep-dive --verbose</text>
+  <text x="425" y="22" text-anchor="middle" class="dossier-title">danial@ai-lab: ~/neural_blueprint.sh --mode deep-research --verbose</text>
+  <text x="825" y="22" text-anchor="end" class="font-mono" font-size="10" fill="#38bdf8" font-weight="600">[NEURAL DOSSIER]</text>
 
   <!-- Body Content -->
-  <g transform="translate(24, 52)">
+  <g transform="translate(24, 48)">
     
     <!-- Command Line Invocation -->
-    <text y="14" class="font-mono" font-size="13">
-      <tspan fill="#8b949e">danial@ai-lab:~$</tspan> <tspan class="prompt-cmd">cat &lt;&lt; 'EOF' &gt; executive_profile.json</tspan>
+    <text y="14" class="font-mono" font-size="12">
+      <tspan fill="#8b949e">danial@ai-lab:~$</tspan> <tspan class="prompt-cmd">cat &lt;&lt; 'EOF' &gt; neural_research_dossier.json</tspan>
     </text>
 
     <!-- Bio Lead Terminal Banner -->
-    <g transform="translate(0, 30)">
-      <rect width="802" height="66" fill="#161b22" stroke="#00f2fe" stroke-opacity="0.3" stroke-width="1" rx="6" />
+    <g transform="translate(0, 26)">
+      <rect width="802" height="66" fill="#161b26" stroke="#00f2fe" stroke-opacity="0.4" stroke-width="1" rx="6" />
+      <path d="M 4 10 L 4 4 L 10 4" class="hud-bracket" stroke="#00f2fe" />
+      <path d="M 798 10 L 798 4 L 792 4" class="hud-bracket" stroke="#00f2fe" />
+      <path d="M 4 56 L 4 62 L 10 62" class="hud-bracket" stroke="#00f2fe" />
+      <path d="M 798 56 L 798 62 L 792 62" class="hud-bracket" stroke="#00f2fe" />
+
       <text x="14" y="24" class="font-mono" font-size="12" fill="#00f2fe" font-weight="bold">
         [ROLE] Senior AI Systems Architect (10+ Years) • PhD Researcher in Artificial Intelligence
       </text>
-      <text x="14" y="48" class="font-sans" font-size="12" fill="#94a3b8">
-        Bridging fundamental academic AI research with production-grade resilient systems engineering—specializing in Deep Learning, CV, RAG, Autonomous Agents, and Extreme Quantization.
+      <text x="14" y="48" class="font-sans" font-size="11.5" fill="#94a3b8">
+        Bridging fundamental academic AI research with production-grade resilient systems engineering—specializing in Deep Learning, Computer Vision, RAG, Autonomous Agents, and Extreme Quantization.
       </text>
     </g>
 
     <!-- Section Title: Core Pillars -->
-    <text y="122" class="font-mono" font-size="12" fill="#38bdf8" font-weight="bold">
-      === CORE AI &amp; SYSTEMS ARCHITECTURE PILLARS ===
+    <text y="112" class="font-mono" font-size="11.5" fill="#38bdf8" font-weight="bold">
+      === CORE AI &amp; NEURAL SYSTEMS ARCHITECTURE PILLARS ===
     </text>
 
-    <!-- Pillar 1: Autonomous Agents -->
-    <g transform="translate(0, 134)">
-      <rect width="802" height="48" class="pillar-box" stroke="#c084fc" stroke-opacity="0.5" />
-      <circle cx="16" cy="24" r="4" fill="#c084fc" />
-      <text x="28" y="20" class="pillar-header" fill="#c084fc">01. AUTONOMOUS AI AGENTS &amp; REASONING WORKFLOWS</text>
-      <text x="28" y="38" class="pillar-desc">
-        Closed-loop agentic architectures implementing multi-step reasoning (<tspan fill="#c084fc" font-family="Fira Code">ReAct, Reflexion, Plan-and-Solve</tspan>), self-correction, dynamic planning &amp; tool orchestration.
+    <!-- Pillar 1: Autonomous Agents (y = 124) -->
+    <g transform="translate(0, 124)">
+      <rect width="802" height="52" class="pillar-box" stroke="#c084fc" stroke-opacity="0.6" />
+      <path d="M 4 8 L 4 4 L 8 4" class="hud-bracket" stroke="#c084fc" />
+      <path d="M 798 8 L 798 4 L 794 4" class="hud-bracket" stroke="#c084fc" />
+      <circle cx="16" cy="20" r="3.5" fill="#c084fc" filter="url(#dossierGlow)" />
+      <text x="28" y="20" class="pillar-header" fill="#c084fc">01. AUTONOMOUS AI AGENTS &amp; REASONING TOPOLOGIES</text>
+      <text x="786" y="20" text-anchor="end" class="pillar-chip" fill="#c084fc">[ATTN: Softmax(QK^T/√d_k)V]</text>
+      <text x="28" y="39" class="pillar-desc">
+        Closed-loop agentic architectures implementing multi-step reasoning (<tspan fill="#c084fc" font-family="Fira Code">ReAct, Reflexion, Plan-and-Solve</tspan>), dynamic tool binding &amp; self-correcting execution loops.
       </text>
     </g>
 
-    <!-- Pillar 2: Deep Learning & Vision -->
-    <g transform="translate(0, 190)">
-      <rect width="802" height="48" class="pillar-box" stroke="#00f2fe" stroke-opacity="0.5" />
-      <circle cx="16" cy="24" r="4" fill="#00f2fe" />
-      <text x="28" y="20" class="pillar-header" fill="#00f2fe">02. DEEP LEARNING &amp; COMPUTER VISION PIPELINES</text>
-      <text x="28" y="38" class="pillar-desc">
-        CNNs, GANs (image/video restoration &amp; colorization: <tspan fill="#00f2fe" font-family="Fira Code">DeOldify, VCGAN</tspan>), and real-time <tspan fill="#00f2fe" font-family="Fira Code">YOLO</tspan> object detection pipelines (v5/v8/v11 @ 60+ FPS).
+    <!-- Pillar 2: Deep Learning & Vision (y = 184) -->
+    <g transform="translate(0, 184)">
+      <rect width="802" height="52" class="pillar-box" stroke="#00f2fe" stroke-opacity="0.6" />
+      <path d="M 4 8 L 4 4 L 8 4" class="hud-bracket" stroke="#00f2fe" />
+      <path d="M 798 8 L 798 4 L 794 4" class="hud-bracket" stroke="#00f2fe" />
+      <circle cx="16" cy="20" r="3.5" fill="#00f2fe" filter="url(#dossierGlow)" />
+      <text x="28" y="20" class="pillar-header" fill="#00f2fe">02. DEEP LEARNING &amp; COMPUTER VISION CONVNETS</text>
+      <text x="786" y="20" text-anchor="end" class="pillar-chip" fill="#00f2fe">[ℒ_GAN • 60+ FPS CUDA]</text>
+      <text x="28" y="39" class="pillar-desc">
+        High-throughput CNNs, GANs (image/video restoration &amp; colorization: <tspan fill="#00f2fe" font-family="Fira Code">DeOldify, VCGAN</tspan>), and real-time <tspan fill="#00f2fe" font-family="Fira Code">YOLO</tspan> object detection pipelines (v5/v8/v11).
       </text>
     </g>
 
-    <!-- Pillar 3: RAG & NLP -->
-    <g transform="translate(0, 246)">
-      <rect width="802" height="48" class="pillar-box" stroke="#38bdf8" stroke-opacity="0.5" />
-      <circle cx="16" cy="24" r="4" fill="#38bdf8" />
-      <text x="28" y="20" class="pillar-header" fill="#38bdf8">03. RETRIEVAL-AUGMENTED GENERATION (RAG) &amp; DENSE NLP</text>
-      <text x="28" y="38" class="pillar-desc">
-        Engineering high-precision dense knowledge retrieval pipelines, few-shot language models (<tspan fill="#38bdf8" font-family="Fira Code">Atlas</tspan>), and reading comprehension (<tspan fill="#38bdf8" font-family="Fira Code">KoRC</tspan>).
+    <!-- Pillar 3: RAG & NLP (y = 244) -->
+    <g transform="translate(0, 244)">
+      <rect width="802" height="52" class="pillar-box" stroke="#38bdf8" stroke-opacity="0.6" />
+      <path d="M 4 8 L 4 4 L 8 4" class="hud-bracket" stroke="#38bdf8" />
+      <path d="M 798 8 L 798 4 L 794 4" class="hud-bracket" stroke="#38bdf8" />
+      <circle cx="16" cy="20" r="3.5" fill="#38bdf8" filter="url(#dossierGlow)" />
+      <text x="28" y="20" class="pillar-header" fill="#38bdf8">03. RETRIEVAL-AUGMENTED GENERATION (RAG) &amp; DENSE LATENTS</text>
+      <text x="786" y="20" text-anchor="end" class="pillar-chip" fill="#38bdf8">[cos(v_q, v_d) ≥ 0.984]</text>
+      <text x="28" y="39" class="pillar-desc">
+        Engineering high-precision dense knowledge retrieval pipelines, few-shot language models (<tspan fill="#38bdf8" font-family="Fira Code">Atlas</tspan>), and knowledge-grounded reading comprehension (<tspan fill="#38bdf8" font-family="Fira Code">KoRC</tspan>).
       </text>
     </g>
 
-    <!-- Pillar 4: Model Quantization -->
-    <g transform="translate(0, 302)">
-      <rect width="802" height="48" class="pillar-box" stroke="#34d399" stroke-opacity="0.5" />
-      <circle cx="16" cy="24" r="4" fill="#34d399" />
-      <text x="28" y="20" class="pillar-header" fill="#34d399">04. MODEL OPTIMIZATION &amp; 1-BIT QUANTIZATION</text>
-      <text x="28" y="38" class="pillar-desc">
-        Low-bit weight representation (<tspan fill="#34d399" font-family="Fira Code">1-bit-per-weight</tspan>), inference acceleration (4.8x boost), and neural compression for edge and high-scale server runtimes.
+    <!-- Pillar 4: Model Quantization (y = 304) -->
+    <g transform="translate(0, 304)">
+      <rect width="802" height="52" class="pillar-box" stroke="#34d399" stroke-opacity="0.6" />
+      <path d="M 4 8 L 4 4 L 8 4" class="hud-bracket" stroke="#34d399" />
+      <path d="M 798 8 L 798 4 L 794 4" class="hud-bracket" stroke="#34d399" />
+      <circle cx="16" cy="20" r="3.5" fill="#34d399" filter="url(#dossierGlow)" />
+      <text x="28" y="20" class="pillar-header" fill="#34d399">04. MODEL OPTIMIZATION &amp; 1-BIT SYNAPSE QUANTIZATION</text>
+      <text x="786" y="20" text-anchor="end" class="pillar-chip" fill="#34d399">[W ∈ {-1, +1} • 4.8X BOOST]</text>
+      <text x="28" y="39" class="pillar-desc">
+        Low-bit weight representation (<tspan fill="#34d399" font-family="Fira Code">1-bit-per-weight</tspan>), sub-8-bit matrix arithmetic, and neural compression for edge accelerators and high-scale server runtimes.
       </text>
     </g>
 
-    <!-- Pillar 5: Systems Engineering -->
-    <g transform="translate(0, 358)">
-      <rect width="802" height="48" class="pillar-box" stroke="#f59e0b" stroke-opacity="0.5" />
-      <circle cx="16" cy="24" r="4" fill="#f59e0b" />
+    <!-- Pillar 5: Systems Engineering (y = 364) -->
+    <g transform="translate(0, 364)">
+      <rect width="802" height="52" class="pillar-box" stroke="#f59e0b" stroke-opacity="0.6" />
+      <path d="M 4 8 L 4 4 L 8 4" class="hud-bracket" stroke="#f59e0b" />
+      <path d="M 798 8 L 798 4 L 794 4" class="hud-bracket" stroke="#f59e0b" />
+      <circle cx="16" cy="20" r="3.5" fill="#f59e0b" filter="url(#dossierGlow)" />
       <text x="28" y="20" class="pillar-header" fill="#f59e0b">05. SYSTEMS, BOT FRAMEWORKS &amp; RUNTIME ENGINEERING</text>
-      <text x="28" y="38" class="pillar-desc">
+      <text x="786" y="20" text-anchor="end" class="pillar-chip" fill="#f59e0b">[HIGH CONCURRENCY]</text>
+      <text x="28" y="39" class="pillar-desc">
         Production-ready asynchronous Telegram bot architectures (<tspan fill="#f59e0b" font-family="Fira Code">aiogram</tspan>), desktop GUIs (<tspan fill="#f59e0b" font-family="Fira Code">Tkinter</tspan>), game tooling (<tspan fill="#f59e0b" font-family="Fira Code">C# / Unity</tspan>), and Linux cluster runtimes.
       </text>
     </g>
 
-    <!-- Bottom Status & Cursor -->
-    <g transform="translate(0, 420)">
-      <text class="font-mono" font-size="12" fill="#8b949e">
-        danial@ai-lab:~$ <tspan fill="#00f2fe">status --all-pillars</tspan> <tspan fill="#22c55e">[ONLINE • ALL SYSTEMS OPERATIONAL]</tspan>
+    <!-- Bottom Status & Cursor (y = 426) -->
+    <g transform="translate(0, 426)">
+      <rect width="802" height="26" fill="#161b22" stroke="#30363d" stroke-width="1" rx="5" />
+      <text x="12" y="17" class="font-mono" font-size="11.5" fill="#8b949e">
+        danial@ai-lab:~$ <tspan fill="#00f2fe">status --all-neural-pillars</tspan> <tspan fill="#22c55e" font-weight="bold">[ONLINE • ALL NEURAL SYSTEMS OPERATIONAL &amp; SYNAPSED]</tspan>
         <tspan class="cursor-blink" dx="6">█</tspan>
       </text>
     </g>

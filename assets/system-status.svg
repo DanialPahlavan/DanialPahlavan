@@ -1,66 +1,131 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 130" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 145" width="100%" height="100%">
   <defs>
-    <linearGradient id="hudGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Background Radial Glow -->
+    <radialGradient id="hudBgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#060913" />
+    </radialGradient>
+
+    <linearGradient id="hudHeaderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#161b22" />
+      <stop offset="50%" stop-color="#0f172a" />
       <stop offset="100%" stop-color="#0d1117" />
     </linearGradient>
+
+    <linearGradient id="hudBoxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b26" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#070a12" stop-opacity="0.98" />
+    </linearGradient>
+
     <filter id="hudGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
+
     <style>
       @keyframes blinkGlow {
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0.35; }
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(0.95); }
       }
-      .hud-box { fill: url(#hudGrad); stroke: #30363d; stroke-width: 1.5; rx: 10px; }
-      .hud-title { font-family: 'Fira Code', 'JetBrains Mono', monospace; font-size: 11px; font-weight: bold; letter-spacing: 1.5px; fill: #8b949e; }
-      .hud-val { font-family: 'Segoe UI', -apple-system, sans-serif; font-size: 12px; fill: #cbd5e1; font-weight: 600; }
-      .hud-sub { font-family: 'Fira Code', monospace; font-size: 10px; fill: #94a3b8; }
-      .status-pulse { animation: blinkGlow 1.8s infinite; }
+      @keyframes wavePulse {
+        0% { stroke-dashoffset: 60; }
+        100% { stroke-dashoffset: 0; }
+      }
+
+      .font-mono { font-family: 'Fira Code', 'JetBrains Mono', 'Consolas', monospace; }
+      .font-sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; }
+
+      .hud-bg { fill: url(#hudBgGlow); stroke: #30363d; stroke-width: 1.5; rx: 10px; }
+      .hud-header { fill: url(#hudHeaderGrad); rx: 10px; }
+      .hud-title { font-family: 'Fira Code', monospace; font-size: 11px; font-weight: bold; letter-spacing: 1px; fill: #94a3b8; }
+      .hud-card { fill: url(#hudBoxGrad); stroke-width: 1.2; rx: 6px; }
+      .hud-sub { font-family: 'Fira Code', monospace; font-size: 8.5px; font-weight: 700; letter-spacing: 0.5px; }
+      .hud-val { font-family: 'Segoe UI', -apple-system, sans-serif; font-size: 12px; fill: #f1f5f9; font-weight: 600; }
+      .hud-detail { font-family: 'Fira Code', monospace; font-size: 10px; fill: #94a3b8; }
+      
+      .status-pulse { animation: blinkGlow 1.8s infinite; transform-origin: 16px 16px; }
+      .hud-bracket { fill: none; stroke-width: 1; stroke-linecap: round; }
+      .wave-live { stroke-dasharray: 60; animation: wavePulse 2s linear infinite; }
     </style>
   </defs>
 
   <!-- Container -->
-  <rect width="800" height="130" class="hud-box" />
+  <rect width="800" height="145" class="hud-bg" />
 
   <!-- Top Title Banner -->
-  <path d="M 0 10 C 0 4.477 4.477 0 10 0 L 790 0 C 795.523 0 800 4.477 800 10 L 800 28 L 0 28 Z" fill="#161b22" />
-  <line x1="0" y1="28" x2="800" y2="28" stroke="#30363d" stroke-width="1" />
+  <path d="M 0 10 C 0 4.477 4.477 0 10 0 L 790 0 C 795.523 0 800 4.477 800 10 L 800 32 L 0 32 Z" class="hud-header" />
+  <line x1="0" y1="32" x2="800" y2="32" stroke="#30363d" stroke-width="1" />
   
-  <circle cx="16" cy="14" r="4" fill="#22c55e" filter="url(#hudGlow)" class="status-pulse" />
-  <text x="28" y="18" class="hud-title">LIVE COMPUTE &amp; AUTONOMOUS REASONING TELEMETRY HUD</text>
-  <text x="780" y="18" text-anchor="end" class="hud-title" fill="#22c55e">HEALTH: OPTIMAL</text>
+  <!-- Firing Synapse Beacon -->
+  <circle cx="18" cy="16" r="4" fill="#22c55e" filter="url(#hudGlow)" class="status-pulse" />
+  <text x="32" y="20" class="hud-title">NEURAL COMPUTE &amp; SYNAPTIC FIRING TELEMETRY HUD</text>
+  <text x="780" y="20" text-anchor="end" class="font-mono" font-size="10.5" fill="#22c55e" font-weight="bold">SYNAPTIC FLOPs: OPTIMAL • LATENCY &lt;1ms</text>
 
-  <!-- Metric 1: Compute Stack -->
-  <g transform="translate(25, 42)">
-    <rect width="170" height="72" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="6" />
-    <text x="12" y="22" class="hud-sub" fill="#00f2fe">PRIMARY RUNTIME</text>
-    <text x="12" y="42" class="hud-val">CUDA 12.x • TensorRT</text>
-    <text x="12" y="60" class="hud-sub">PyTorch 2.x acceleration</text>
+  <!-- Metric 1: Synaptic Throughput (x = 20) -->
+  <g transform="translate(20, 46)">
+    <rect width="176" height="84" class="hud-card" stroke="#00f2fe" stroke-opacity="0.6" />
+    <path d="M 4 8 L 4 4 L 8 4" class="hud-bracket" stroke="#00f2fe" />
+    <path d="M 172 8 L 172 4 L 168 4" class="hud-bracket" stroke="#00f2fe" />
+    
+    <text x="12" y="20" class="hud-sub" fill="#00f2fe">SYNAPTIC THROUGHPUT</text>
+    <text x="12" y="38" class="hud-val">CUDA 12.x • TensorRT</text>
+    <text x="12" y="54" class="hud-detail">60+ FPS • Tensor Cores</text>
+    
+    <!-- Mini Metric Bars -->
+    <g transform="translate(12, 66)">
+      <rect x="0" y="0" width="26" height="6" fill="#00f2fe" rx="2" />
+      <rect x="30" y="0" width="26" height="6" fill="#00f2fe" rx="2" />
+      <rect x="60" y="0" width="26" height="6" fill="#00f2fe" rx="2" />
+      <rect x="90" y="0" width="26" height="6" fill="#00f2fe" rx="2" />
+      <rect x="120" y="0" width="26" height="6" fill="#00f2fe" opacity="0.4" rx="2" />
+    </g>
   </g>
 
-  <!-- Metric 2: Agentic Engine -->
-  <g transform="translate(215, 42)">
-    <rect width="170" height="72" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="6" />
-    <text x="12" y="22" class="hud-sub" fill="#a78bfa">AGENTIC COGNITION</text>
-    <text x="12" y="42" class="hud-val">ReAct &amp; Reflexion</text>
-    <text x="12" y="60" class="hud-sub">Closed-loop tool binding</text>
+  <!-- Metric 2: Cognitive Synapse Loop (x = 212) -->
+  <g transform="translate(212, 46)">
+    <rect width="176" height="84" class="hud-card" stroke="#c084fc" stroke-opacity="0.6" />
+    <path d="M 4 8 L 4 4 L 8 4" class="hud-bracket" stroke="#c084fc" />
+    <path d="M 172 8 L 172 4 L 168 4" class="hud-bracket" stroke="#c084fc" />
+    
+    <text x="12" y="20" class="hud-sub" fill="#c084fc">COGNITIVE SYNAPSE</text>
+    <text x="12" y="38" class="hud-val">ReAct &amp; Reflexion</text>
+    <text x="12" y="54" class="hud-detail">Closed-Loop EEG Wave</text>
+
+    <!-- Firing Neural EEG Waveform -->
+    <path d="M 12 70 L 28 70 L 36 60 L 44 78 L 52 62 L 60 74 L 72 70 L 152 70" fill="none" stroke="#c084fc" stroke-width="1.5" class="wave-live" />
   </g>
 
-  <!-- Metric 3: Dense RAG -->
-  <g transform="translate(405, 42)">
-    <rect width="170" height="72" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="6" />
-    <text x="12" y="22" class="hud-sub" fill="#38bdf8">KNOWLEDGE ENGINE</text>
-    <text x="12" y="42" class="hud-val">Atlas Dense Vector RAG</text>
-    <text x="12" y="60" class="hud-sub">KoRC semantic indexing</text>
+  <!-- Metric 3: Latent Space Vector Density (x = 404) -->
+  <g transform="translate(404, 46)">
+    <rect width="176" height="84" class="hud-card" stroke="#38bdf8" stroke-opacity="0.6" />
+    <path d="M 4 8 L 4 4 L 8 4" class="hud-bracket" stroke="#38bdf8" />
+    <path d="M 172 8 L 172 4 L 168 4" class="hud-bracket" stroke="#38bdf8" />
+    
+    <text x="12" y="20" class="hud-sub" fill="#38bdf8">LATENT SPACE DENSITY</text>
+    <text x="12" y="38" class="hud-val">Atlas Vector RAG</text>
+    <text x="12" y="54" class="hud-detail">cos(θ) = 0.984 (Top-K)</text>
+
+    <!-- Progress Meter -->
+    <g transform="translate(12, 66)">
+      <rect x="0" y="0" width="150" height="6" fill="#1e293b" rx="2" />
+      <rect x="0" y="0" width="147" height="6" fill="#38bdf8" rx="2" />
+    </g>
   </g>
 
-  <!-- Metric 4: 1-Bit Quantization -->
-  <g transform="translate(595, 42)">
-    <rect width="175" height="72" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="6" />
-    <text x="12" y="22" class="hud-sub" fill="#10b981">MODEL OPTIMIZATION</text>
-    <text x="12" y="42" class="hud-val">1-Bit-Per-Weight</text>
-    <text x="12" y="60" class="hud-sub">4.8x edge acceleration</text>
+  <!-- Metric 4: 1-Bit Weight Quantization (x = 596) -->
+  <g transform="translate(596, 46)">
+    <rect width="184" height="84" class="hud-card" stroke="#34d399" stroke-opacity="0.6" />
+    <path d="M 4 8 L 4 4 L 8 4" class="hud-bracket" stroke="#34d399" />
+    <path d="M 180 8 L 180 4 L 176 4" class="hud-bracket" stroke="#34d399" />
+    
+    <text x="12" y="20" class="hud-sub" fill="#34d399">SYNAPTIC QUANTIZATION</text>
+    <text x="12" y="38" class="hud-val">1-Bit Ternary Core</text>
+    <text x="12" y="54" class="hud-detail">W ∈ {-1, +1} • 4.8x Boost</text>
+
+    <!-- Acceleration Gauge -->
+    <g transform="translate(12, 66)">
+      <rect x="0" y="0" width="158" height="6" fill="#1e293b" rx="2" />
+      <rect x="0" y="0" width="150" height="6" fill="#34d399" rx="2" />
+    </g>
   </g>
 </svg>

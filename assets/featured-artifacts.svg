@@ -1,37 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 420" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 450" width="100%" height="100%">
   <defs>
+    <!-- Synaptic Mesh Pattern -->
+    <pattern id="artSynapseGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#38bdf8" opacity="0.15" />
+      <line x1="2" y1="2" x2="24" y2="24" stroke="#38bdf8" stroke-width="0.3" stroke-opacity="0.08" />
+    </pattern>
+
     <linearGradient id="artHeaderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#161b22" />
+      <stop offset="50%" stop-color="#0f172a" />
       <stop offset="100%" stop-color="#0d1117" />
     </linearGradient>
-    <linearGradient id="artBoxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#161b22" />
-      <stop offset="100%" stop-color="#0d1117" />
+
+    <linearGradient id="cardGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b26" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#070a12" stop-opacity="0.98" />
     </linearGradient>
+
     <filter id="artGlow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="3" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
+
     <style>
       @keyframes artCursor { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
-      .art-bg { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; rx: 10px; }
-      .art-header { fill: url(#artHeaderGrad); rx: 10px; }
-      .art-title { fill: #8b949e; font-family: 'Fira Code', 'JetBrains Mono', monospace; font-size: 12px; font-weight: 600; }
       
       .font-mono { font-family: 'Fira Code', 'JetBrains Mono', 'Consolas', monospace; }
       .font-sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; }
+
+      .art-bg { fill: #070a12; stroke: #30363d; stroke-width: 1.5; rx: 10px; }
+      .art-header { fill: url(#artHeaderGrad); rx: 10px; }
+      .art-title { fill: #94a3b8; font-family: 'Fira Code', monospace; font-size: 12px; font-weight: 600; }
       
       .prompt-cmd { fill: #00f2fe; font-weight: bold; }
-      .repo-card { fill: url(#artBoxGrad); stroke: #30363d; stroke-width: 1.2; rx: 6px; }
-      .repo-title { font-family: 'Fira Code', monospace; font-size: 11.5px; font-weight: bold; }
+      .repo-card { fill: url(#cardGradDark); stroke-width: 1.2; rx: 6px; }
+      .repo-title { font-family: 'Fira Code', monospace; font-size: 10.5px; font-weight: bold; letter-spacing: 0.5px; }
+      .repo-tag { font-family: 'Fira Code', monospace; font-size: 9px; font-weight: 700; }
       .repo-desc { font-family: 'Segoe UI', sans-serif; font-size: 11px; fill: #cbd5e1; }
-      .repo-tag { font-family: 'Fira Code', monospace; font-size: 10px; }
+      .repo-stack { font-family: 'Segoe UI', sans-serif; font-size: 10.5px; fill: #94a3b8; }
+      
+      .hud-bracket { fill: none; stroke-width: 1.2; stroke-linecap: round; }
       .cursor-blink { animation: artCursor 1s infinite; fill: #00f2fe; }
     </style>
   </defs>
 
   <!-- Container Box -->
-  <rect width="850" height="420" class="art-bg" />
+  <rect width="850" height="450" class="art-bg" />
+  <!-- Synaptic Mesh Overlay -->
+  <rect width="850" height="450" fill="url(#artSynapseGrid)" rx="10" />
 
   <!-- Window Header Bar -->
   <path d="M 0 10 C 0 4.477 4.477 0 10 0 L 840 0 C 845.523 0 850 4.477 850 10 L 850 34 L 0 34 Z" class="art-header" />
@@ -43,76 +59,90 @@
   <circle cx="56" cy="17" r="5.5" fill="#27c93f" />
 
   <!-- Title -->
-  <text x="425" y="22" text-anchor="middle" class="art-title">danial@ai-lab: ~/registry/featured_artifacts.json --format geek</text>
+  <text x="425" y="22" text-anchor="middle" class="art-title">danial@ai-lab: ~/neural_zoo/featured_models.json --format geek</text>
+  <text x="825" y="22" text-anchor="end" class="font-mono" font-size="10" fill="#38bdf8" font-weight="600">[PUBLIC REPOS: 74+]</text>
 
   <!-- Content Body -->
-  <g transform="translate(24, 52)">
+  <g transform="translate(24, 48)">
     
     <!-- Command line -->
-    <text y="14" class="font-mono" font-size="13">
-      <tspan fill="#8b949e">danial@ai-lab:~$</tspan> <tspan class="prompt-cmd">git registry --list-featured --verified</tspan>
+    <text y="14" class="font-mono" font-size="12">
+      <tspan fill="#8b949e">danial@ai-lab:~$</tspan> <tspan class="prompt-cmd">git neural-registry --list-featured --verified-architecture</tspan>
     </text>
 
-    <!-- Artifact 1: Deep Learning & Vision -->
-    <g transform="translate(0, 32)">
-      <rect width="802" height="66" class="repo-card" stroke="#00f2fe" stroke-opacity="0.5" />
-      <circle cx="16" cy="22" r="4" fill="#00f2fe" />
-      <text x="28" y="22" class="repo-title" fill="#00f2fe">01. DEEP LEARNING &amp; COMPUTER VISION</text>
-      <text x="785" y="22" text-anchor="end" class="repo-tag" fill="#00f2fe">[60+ FPS PIPELINE]</text>
-      <text x="28" y="42" class="repo-desc">
-        <tspan font-weight="600" fill="#f1f5f9">Repositories:</tspan> <tspan fill="#38bdf8" font-family="Fira Code">VCGAN / DeOldify</tspan> • <tspan fill="#38bdf8" font-family="Fira Code">YOLO-Detection</tspan>
+    <!-- Artifact 1: Deep Learning & Vision (y = 26) -->
+    <g transform="translate(0, 26)">
+      <rect width="802" height="70" class="repo-card" stroke="#00f2fe" stroke-opacity="0.6" />
+      <path d="M 4 10 L 4 4 L 10 4" class="hud-bracket" stroke="#00f2fe" />
+      <path d="M 798 10 L 798 4 L 792 4" class="hud-bracket" stroke="#00f2fe" />
+      <circle cx="16" cy="22" r="3.5" fill="#00f2fe" filter="url(#artGlow)" />
+      <text x="28" y="22" class="repo-title" fill="#00f2fe">MODEL 01: COMPUTER VISION &amp; GAN RESTORATION</text>
+      <text x="786" y="22" text-anchor="end" class="repo-tag" fill="#00f2fe">[60+ FPS INFERENCE]</text>
+      
+      <text x="28" y="44" class="repo-desc">
+        <tspan font-weight="600" fill="#f1f5f9">Featured Repositories:</tspan> <tspan fill="#38bdf8" font-family="Fira Code" font-weight="bold">VCGAN</tspan> • <tspan fill="#38bdf8" font-family="Fira Code" font-weight="bold">DeOldify</tspan> • <tspan fill="#38bdf8" font-family="Fira Code" font-weight="bold">YOLO-RealTime-Detection</tspan>
       </text>
-      <text x="28" y="58" class="repo-tag" fill="#94a3b8">
-        Architecture: PyTorch • Generative Adversarial Networks (GANs) • YOLOv8/v11 • OpenCV • CUDA
-      </text>
-    </g>
-
-    <!-- Artifact 2: Autonomous Agents & RAG -->
-    <g transform="translate(0, 108)">
-      <rect width="802" height="66" class="repo-card" stroke="#c084fc" stroke-opacity="0.5" />
-      <circle cx="16" cy="22" r="4" fill="#c084fc" />
-      <text x="28" y="22" class="repo-title" fill="#c084fc">02. AUTONOMOUS AGENTS &amp; DENSE RAG PIPELINES</text>
-      <text x="785" y="22" text-anchor="end" class="repo-tag" fill="#c084fc">[98.4% HIT RATE]</text>
-      <text x="28" y="42" class="repo-desc">
-        <tspan font-weight="600" fill="#f1f5f9">Repositories:</tspan> <tspan fill="#c084fc" font-family="Fira Code">KoRC / Atlas</tspan> • <tspan fill="#c084fc" font-family="Fira Code">Agentic-Workflows</tspan>
-      </text>
-      <text x="28" y="58" class="repo-tag" fill="#94a3b8">
-        Architecture: ReAct / Reflexion Reasoning • Dense Vector Knowledge Indexing • LangChain
+      <text x="28" y="60" class="repo-stack">
+        Architecture: PyTorch ConvNets • GAN Generator/Discriminator • YOLOv8/v11 • OpenCV Tensor Pipeline
       </text>
     </g>
 
-    <!-- Artifact 3: Async Bot & Application Systems -->
-    <g transform="translate(0, 184)">
-      <rect width="802" height="66" class="repo-card" stroke="#f59e0b" stroke-opacity="0.5" />
-      <circle cx="16" cy="22" r="4" fill="#f59e0b" />
-      <text x="28" y="22" class="repo-title" fill="#f59e0b">03. SYSTEMS &amp; ASYNC BOT FRAMEWORKS</text>
-      <text x="785" y="22" text-anchor="end" class="repo-tag" fill="#f59e0b">[HIGH CONCURRENCY]</text>
-      <text x="28" y="42" class="repo-desc">
-        <tspan font-weight="600" fill="#f1f5f9">Repositories:</tspan> <tspan fill="#f59e0b" font-family="Fira Code">aiogram-bots</tspan> • <tspan fill="#f59e0b" font-family="Fira Code">Tkinter-GUI</tspan>
+    <!-- Artifact 2: Autonomous Agents & RAG (y = 104) -->
+    <g transform="translate(0, 104)">
+      <rect width="802" height="70" class="repo-card" stroke="#c084fc" stroke-opacity="0.6" />
+      <path d="M 4 10 L 4 4 L 10 4" class="hud-bracket" stroke="#c084fc" />
+      <path d="M 798 10 L 798 4 L 792 4" class="hud-bracket" stroke="#c084fc" />
+      <circle cx="16" cy="22" r="3.5" fill="#c084fc" filter="url(#artGlow)" />
+      <text x="28" y="22" class="repo-title" fill="#c084fc">MODEL 02: AUTONOMOUS AGENTS &amp; DENSE LATENT RAG</text>
+      <text x="786" y="22" text-anchor="end" class="repo-tag" fill="#c084fc">[98.4% COSINE HIT]</text>
+      
+      <text x="28" y="44" class="repo-desc">
+        <tspan font-weight="600" fill="#f1f5f9">Featured Repositories:</tspan> <tspan fill="#c084fc" font-family="Fira Code" font-weight="bold">KoRC</tspan> • <tspan fill="#c084fc" font-family="Fira Code" font-weight="bold">Atlas</tspan> • <tspan fill="#c084fc" font-family="Fira Code" font-weight="bold">Agentic-Reasoning-Workflows</tspan>
       </text>
-      <text x="28" y="58" class="repo-tag" fill="#94a3b8">
-        Architecture: Python AsyncIO • Telegram Bot API • High-Event Loops • Desktop GUIs • C# Unity
+      <text x="28" y="60" class="repo-stack">
+        Architecture: ReAct/Reflexion Attention Loops • Dense Vector Latent Indexing • 1-Bit BitNet Quantization
       </text>
     </g>
 
-    <!-- Artifact 4: Localization & Game Tooling -->
+    <!-- Artifact 3: Async Bot & Application Systems (y = 182) -->
+    <g transform="translate(0, 182)">
+      <rect width="802" height="70" class="repo-card" stroke="#f59e0b" stroke-opacity="0.6" />
+      <path d="M 4 10 L 4 4 L 10 4" class="hud-bracket" stroke="#f59e0b" />
+      <path d="M 798 10 L 798 4 L 792 4" class="hud-bracket" stroke="#f59e0b" />
+      <circle cx="16" cy="22" r="3.5" fill="#f59e0b" filter="url(#artGlow)" />
+      <text x="28" y="22" class="repo-title" fill="#f59e0b">SYSTEM 03: ASYNC BOT ENGINES &amp; DESKTOP RUNTIMES</text>
+      <text x="786" y="22" text-anchor="end" class="repo-tag" fill="#f59e0b">[HIGH-EVENT DISPATCH]</text>
+      
+      <text x="28" y="44" class="repo-desc">
+        <tspan font-weight="600" fill="#f1f5f9">Featured Repositories:</tspan> <tspan fill="#f59e0b" font-family="Fira Code" font-weight="bold">aiogram-bots</tspan> • <tspan fill="#f59e0b" font-family="Fira Code" font-weight="bold">Tkinter-GUI</tspan> • <tspan fill="#f59e0b" font-family="Fira Code" font-weight="bold">PowerToys-Customizations</tspan>
+      </text>
+      <text x="28" y="60" class="repo-stack">
+        Architecture: Python AsyncIO • Telegram Bot API • High-Concurrency Loops • Tkinter • C# Unity Engine
+      </text>
+    </g>
+
+    <!-- Artifact 4: Localization & Game Tooling (y = 260) -->
     <g transform="translate(0, 260)">
-      <rect width="802" height="66" class="repo-card" stroke="#34d399" stroke-opacity="0.5" />
-      <circle cx="16" cy="22" r="4" fill="#34d399" />
-      <text x="28" y="22" class="repo-title" fill="#34d399">04. LOCALIZATION &amp; GAME ASSET TOOLING</text>
-      <text x="785" y="22" text-anchor="end" class="repo-tag" fill="#34d399">[BINARY ENGINE]</text>
-      <text x="28" y="42" class="repo-desc">
-        <tspan font-weight="600" fill="#f1f5f9">Repositories:</tspan> <tspan fill="#34d399" font-family="Fira Code">Kenshi-farsi</tspan> • <tspan fill="#34d399" font-family="Fira Code">DarkestDungeon-2---Persian</tspan>
+      <rect width="802" height="70" class="repo-card" stroke="#34d399" stroke-opacity="0.6" />
+      <path d="M 4 10 L 4 4 L 10 4" class="hud-bracket" stroke="#34d399" />
+      <path d="M 798 10 L 798 4 L 792 4" class="hud-bracket" stroke="#34d399" />
+      <circle cx="16" cy="22" r="3.5" fill="#34d399" filter="url(#artGlow)" />
+      <text x="28" y="22" class="repo-title" fill="#34d399">SYSTEM 04: LOCALIZATION ENGINES &amp; BINARY PARSERS</text>
+      <text x="786" y="22" text-anchor="end" class="repo-tag" fill="#34d399">[BINARY PARSER]</text>
+      
+      <text x="28" y="44" class="repo-desc">
+        <tspan font-weight="600" fill="#f1f5f9">Featured Repositories:</tspan> <tspan fill="#34d399" font-family="Fira Code" font-weight="bold">Kenshi-farsi</tspan> • <tspan fill="#34d399" font-family="Fira Code" font-weight="bold">DarkestDungeon-2---Persian</tspan> • <tspan fill="#34d399" font-family="Fira Code" font-weight="bold">Project-Zomboid-Persian</tspan>
       </text>
-      <text x="28" y="58" class="repo-tag" fill="#94a3b8">
+      <text x="28" y="60" class="repo-stack">
         Architecture: C# • Python • Binary Asset Parsing • Custom Font Engine • Localization Runtimes
       </text>
     </g>
 
-    <!-- Terminal Footer -->
-    <g transform="translate(0, 345)">
-      <text class="font-mono" font-size="12" fill="#8b949e">
-        danial@ai-lab:~$ <tspan fill="#00f2fe">echo $TOTAL_PUBLIC_REPOS</tspan> <tspan fill="#38bdf8">74+ Verified Repositories Active</tspan>
+    <!-- Terminal Footer (y = 340) -->
+    <g transform="translate(0, 340)">
+      <rect width="802" height="28" fill="#161b22" stroke="#30363d" stroke-width="1" rx="5" />
+      <text x="12" y="18" class="font-mono" font-size="11.5" fill="#8b949e">
+        danial@ai-lab:~$ <tspan fill="#00f2fe">echo $TOTAL_PUBLIC_REPOS</tspan> <tspan fill="#38bdf8" font-weight="bold">74+ Verified Repositories Active</tspan>
         <tspan class="cursor-blink" dx="6">█</tspan>
       </text>
     </g>
