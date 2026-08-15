@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 130" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hudGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+    <filter id="hudGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <style>
+      @keyframes blinkGlow {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.35; }
+      }
+      .hud-box { fill: url(#hudGrad); stroke: #30363d; stroke-width: 1.5; rx: 10px; }
+      .hud-title { font-family: 'Fira Code', 'JetBrains Mono', monospace; font-size: 11px; font-weight: bold; letter-spacing: 1.5px; fill: #8b949e; }
+      .hud-val { font-family: 'Segoe UI', -apple-system, sans-serif; font-size: 12px; fill: #cbd5e1; font-weight: 600; }
+      .hud-sub { font-family: 'Fira Code', monospace; font-size: 10px; fill: #94a3b8; }
+      .status-pulse { animation: blinkGlow 1.8s infinite; }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect width="800" height="130" class="hud-box" />
+
+  <!-- Top Title Banner -->
+  <path d="M 0 10 C 0 4.477 4.477 0 10 0 L 790 0 C 795.523 0 800 4.477 800 10 L 800 28 L 0 28 Z" fill="#161b22" />
+  <line x1="0" y1="28" x2="800" y2="28" stroke="#30363d" stroke-width="1" />
+  
+  <circle cx="16" cy="14" r="4" fill="#22c55e" filter="url(#hudGlow)" class="status-pulse" />
+  <text x="28" y="18" class="hud-title">LIVE COMPUTE &amp; AUTONOMOUS REASONING TELEMETRY HUD</text>
+  <text x="780" y="18" text-anchor="end" class="hud-title" fill="#22c55e">HEALTH: OPTIMAL</text>
+
+  <!-- Metric 1: Compute Stack -->
+  <g transform="translate(25, 42)">
+    <rect width="170" height="72" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="6" />
+    <text x="12" y="22" class="hud-sub" fill="#00f2fe">PRIMARY RUNTIME</text>
+    <text x="12" y="42" class="hud-val">CUDA 12.x • TensorRT</text>
+    <text x="12" y="60" class="hud-sub">PyTorch 2.x acceleration</text>
+  </g>
+
+  <!-- Metric 2: Agentic Engine -->
+  <g transform="translate(215, 42)">
+    <rect width="170" height="72" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="6" />
+    <text x="12" y="22" class="hud-sub" fill="#a78bfa">AGENTIC COGNITION</text>
+    <text x="12" y="42" class="hud-val">ReAct &amp; Reflexion</text>
+    <text x="12" y="60" class="hud-sub">Closed-loop tool binding</text>
+  </g>
+
+  <!-- Metric 3: Dense RAG -->
+  <g transform="translate(405, 42)">
+    <rect width="170" height="72" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="6" />
+    <text x="12" y="22" class="hud-sub" fill="#38bdf8">KNOWLEDGE ENGINE</text>
+    <text x="12" y="42" class="hud-val">Atlas Dense Vector RAG</text>
+    <text x="12" y="60" class="hud-sub">KoRC semantic indexing</text>
+  </g>
+
+  <!-- Metric 4: 1-Bit Quantization -->
+  <g transform="translate(595, 42)">
+    <rect width="175" height="72" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="6" />
+    <text x="12" y="22" class="hud-sub" fill="#10b981">MODEL OPTIMIZATION</text>
+    <text x="12" y="42" class="hud-val">1-Bit-Per-Weight</text>
+    <text x="12" y="60" class="hud-sub">4.8x edge acceleration</text>
+  </g>
+</svg>

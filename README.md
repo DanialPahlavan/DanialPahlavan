@@ -51,15 +51,9 @@
 <summary><strong>🧠 Executive Overview & Core AI Research Pillars</strong></summary>
 <br/>
 
-I am a **Senior AI Systems Architect** with over a decade (10+ years) of software and systems engineering experience and a **PhD Researcher in Artificial Intelligence**. My work bridges fundamental academic AI research with production-grade resilient systems engineering—specializing in **Deep Learning, Computer Vision, Retrieval-Augmented Generation (RAG), Autonomous AI Agent Architectures, and Extreme Model Quantization**.
-
-#### Core AI & Systems Pillars
-
-- 🤖 **Autonomous AI Agents & Workflows:** Closed-loop agentic architectures implementing multi-step reasoning (`ReAct`, `Reflexion`, Plan-and-Solve), self-correction, dynamic planning, and tool-use orchestration.
-- 👁️ **Deep Learning & Computer Vision:** Designing and training Convolutional Neural Networks (CNNs), Generative Adversarial Networks (GANs for image/video restoration & colorization like `DeOldify`/`VCGAN`), and real-time `YOLO` object detection pipelines (v5/v8/v11).
-- 📚 **Retrieval-Augmented Generation (RAG) & NLP:** Engineering high-precision dense knowledge retrieval pipelines, few-shot language models (`Atlas`), and knowledge-oriented reading comprehension (`KoRC`).
-- ⚡ **Model Optimization & Quantization:** Low-bit weight representation (`1-bit-per-weight`), inference acceleration, and neural network compression for resource-constrained edge and server environments.
-- 🛠️ **Systems & Application Engineering:** Production-ready asynchronous Telegram bot architectures (`aiogram`), desktop GUI systems (`Tkinter`), game tooling / asset extraction (`C# / Unity`), and Linux runtime environments.
+<div align="center">
+  <img src="assets/executive-overview.svg" width="95%" alt="Executive Overview & Core AI Research Pillars Dossier" />
+</div>
 
 </details>
 
@@ -166,29 +160,27 @@ I am a **Senior AI Systems Architect** with over a decade (10+ years) of softwar
 <br/>
 
 <details>
-<summary><strong>🧊 3D Isometric Engineering Contribution Skyline</strong></summary>
-<br/>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DanialPahlavan/DanialPahlavan/main/profile-3d-contrib/profile-night-view.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DanialPahlavan/DanialPahlavan/main/profile-3d-contrib/profile-green-animate.svg">
-    <img alt="Danial Pahlavan - 3D Contribution Skyline" src="https://raw.githubusercontent.com/DanialPahlavan/DanialPahlavan/main/profile-3d-contrib/profile-night-view.svg" width="95%" />
-  </picture>
-</div>
-
-</details>
-
-<br/>
-
-<details>
 <summary><strong>🔬 AI Systems Architecture & Research Compute Telemetry</strong></summary>
 <br/>
 
 <div align="center">
+  <!-- Live Compute & Reasoning HUD -->
+  <img src="assets/system-status.svg" width="95%" alt="Live Compute & Reasoning Telemetry HUD" />
+  <br/><br/>
+  <!-- Neural Architecture Flowchart -->
   <img src="assets/neural-architecture.svg" width="95%" alt="Neural Architecture & Autonomous Agent Topology" />
   <br/><br/>
-  <img src="assets/terminal-agent.svg" width="95%" alt="Autonomous Agent Terminal Simulator" />
+  <!-- Radar Chart & Terminal Simulator Side-by-Side -->
+  <table border="0" align="center" style="border-collapse: collapse; width: 95%;">
+    <tr align="center">
+      <td width="50%" align="center" style="padding: 4px; vertical-align: middle;">
+        <img src="assets/radar-chart.svg" width="100%" alt="AI Systems Architecture Radar" />
+      </td>
+      <td width="50%" align="center" style="padding: 4px; vertical-align: middle;">
+        <img src="assets/terminal-agent.svg" width="100%" alt="Autonomous Agent Terminal Simulator" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br/>
@@ -207,27 +199,12 @@ I am a **Senior AI Systems Architect** with over a decade (10+ years) of softwar
 <br/>
 
 <details>
-<summary><strong>⭐ Open-Source Stargazer Trajectory & Growth</strong></summary>
-<br/>
-
-<div align="center">
-  <img src="https://api.star-history.com/svg?repos=danialpahlavan/danialpahlavan&type=Date&theme=dark" width="95%" alt="Star History Chart" />
-</div>
-
-</details>
-
-<br/>
-
-<details>
 <summary><strong>🚀 Featured Open-Source Engineering Artifacts</strong></summary>
 <br/>
 
-| Domain | Representative Public Repositories | Core Architecture & Stack |
-| :--- | :--- | :--- |
-| **Deep Learning & Computer Vision** | [`VCGAN / DeOldify`](https://github.com/DanialPahlavan) • [`YOLO-Detection`](https://github.com/DanialPahlavan) | PyTorch • GANs • YOLOv8/v11 • OpenCV • CUDA |
-| **Autonomous Agents & RAG** | [`KoRC / Atlas`](https://github.com/DanialPahlavan) • [`Agentic-Workflows`](https://github.com/DanialPahlavan) | ReAct • Reflexion • Dense Vector Indexing • LangChain |
-| **Systems & Bot Frameworks** | [`aiogram-bots`](https://github.com/DanialPahlavan) • [`Tkinter-GUI`](https://github.com/DanialPahlavan) | Python AsyncIO • Telegram API • Tkinter • C# Unity |
-| **Localization & Game Tooling** | [`Kenshi-farsi`](https://github.com/DanialPahlavan) • [`DarkestDungeon-2---Persian`](https://github.com/DanialPahlavan) | C# • Python • Asset Parsers • Localization Frameworks |
+<div align="center">
+  <img src="assets/featured-artifacts.svg" width="95%" alt="Featured Open-Source Engineering Artifacts Registry" />
+</div>
 
 </details>
 
