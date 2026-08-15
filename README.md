@@ -46,7 +46,9 @@
 
 ---
 
-### Executive Overview & AI Research Focus
+<details>
+<summary><strong>🧠 Executive Overview & Core AI Research Pillars</strong></summary>
+<br/>
 
 I am a **Senior AI Systems Architect** with over a decade (10+ years) of software and systems engineering experience and a **PhD Researcher in Artificial Intelligence**. My work bridges fundamental academic AI research with production-grade resilient systems engineering—specializing in **Deep Learning, Computer Vision, Retrieval-Augmented Generation (RAG), Autonomous AI Agent Architectures, and Extreme Model Quantization**.
 
@@ -57,6 +59,8 @@ I am a **Senior AI Systems Architect** with over a decade (10+ years) of softwar
 - 📚 **Retrieval-Augmented Generation (RAG) & NLP:** Engineering high-precision dense knowledge retrieval pipelines, few-shot language models (`Atlas`), and knowledge-oriented reading comprehension (`KoRC`).
 - ⚡ **Model Optimization & Quantization:** Low-bit weight representation (`1-bit-per-weight`), inference acceleration, and neural network compression for resource-constrained edge and server environments.
 - 🛠️ **Systems & Application Engineering:** Production-ready asynchronous Telegram bot architectures (`aiogram`), desktop GUI systems (`Tkinter`), game tooling / asset extraction (`C# / Unity`), and Linux runtime environments.
+
+</details>
 
 ---
 
@@ -104,12 +108,7 @@ I am a **Senior AI Systems Architect** with over a decade (10+ years) of softwar
     </a>
   </p>
 
-  <!-- GitHub Achievement Trophies (Compact Single-Row Strip) -->
-  <a href="https://github.com/DanialPahlavan" target="_blank">
-    <img src="https://github-profile-trophy.vercel.app/?username=DanialPahlavan&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&margin-h=4&row=1&column=7" alt="Danial Pahlavan - Engineering Trophies" />
-  </a>
-
-  <br/><br/>
+  <br/>
 
   <!-- Continuous Contribution Flow (Snake Animation) -->
   <picture>
@@ -120,16 +119,8 @@ I am a **Senior AI Systems Architect** with over a decade (10+ years) of softwar
 
   <br/><br/>
 
-  <!-- High-Density Telemetry Matrix (Uniform 135px Height 6-Card Dashboard) -->
+  <!-- High-Density Telemetry Matrix (Uniform 135px Height Multi-Card Dashboard) -->
   <table border="0" align="center" style="border-collapse: collapse; width: 95%;">
-    <tr align="center">
-      <td width="50%" align="center" style="padding: 4px;">
-        <img src="https://github-readme-stats-anuraghazra.vercel.app/api?username=DanialPahlavan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f2fe&icon_color=38bdf8&text_color=e2e8f0&include_all_commits=true&count_private=true" height="135" alt="GitHub Activity Metrics" />
-      </td>
-      <td width="50%" align="center" style="padding: 4px;">
-        <img src="https://github-readme-stats-anuraghazra.vercel.app/api/top-langs/?username=DanialPahlavan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f2fe&text_color=e2e8f0&hide=Jupyter%20Notebook,Roff,HTML,CSS" height="135" alt="Top Languages & Ecosystems" />
-      </td>
-    </tr>
     <tr align="center">
       <td width="50%" align="center" style="padding: 4px;">
         <img src="https://streak-stats.demolab.com/?user=DanialPahlavan&theme=tokyonight&hide_border=true&background=0d1117&ring=00f2fe&fire=38bdf8&currStreakLabel=00f2fe&dates=e2e8f0" height="135" alt="Engineering Velocity Streak" />
@@ -140,9 +131,14 @@ I am a **Senior AI Systems Architect** with over a decade (10+ years) of softwar
     </tr>
     <tr align="center">
       <td width="50%" align="center" style="padding: 4px;">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DanialPahlavan&theme=tokyonight" height="135" alt="Repositories per Language" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DanialPahlavan&theme=tokyonight" height="135" alt="Top Languages by Commit" />
       </td>
       <td width="50%" align="center" style="padding: 4px;">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DanialPahlavan&theme=tokyonight" height="135" alt="Repositories per Language" />
+      </td>
+    </tr>
+    <tr align="center">
+      <td colspan="2" width="100%" align="center" style="padding: 4px;">
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DanialPahlavan&theme=tokyonight" height="135" alt="Productive Coding Time" />
       </td>
     </tr>
@@ -174,7 +170,7 @@ I am a **Senior AI Systems Architect** with over a decade (10+ years) of softwar
 
 <br/>
 
-<details open>
+<details>
 <summary><strong>🚀 Featured Open-Source Engineering Artifacts</strong></summary>
 <br/>
 
@@ -187,35 +183,7 @@ I am a **Senior AI Systems Architect** with over a decade (10+ years) of softwar
 
 </details>
 
----
-
-### AI Research Collaboration & Advisory
-
-I am open to technical advisory, AI research collaborations, academic peer-review, and speaking engagements in **Deep Learning, Computer Vision, RAG Pipelines, Autonomous AI Agents, and Neural Model Optimization**.
-
-<p align="center">
-  <a href="https://scholar.google.com" target="_blank">
-    <img src="https://img.shields.io/badge/Google_Scholar-Publications-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Google Scholar" />
-  </a>
-  &nbsp;
-  <a href="https://orcid.org" target="_blank">
-    <img src="https://img.shields.io/badge/ORCID-Profile-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" />
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/danialpahlavan/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="https://dev.to/danialpahlavan" target="_blank">
-    <img src="https://img.shields.io/badge/Dev.to-Articles-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="Dev.to" />
-  </a>
-  &nbsp;
-  <a href="https://www.youtube.com/@DanyPahlavan" target="_blank">
-    <img src="https://img.shields.io/badge/YouTube-Channel-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
-  </a>
-</p>
-
----
+<br/>
 
 <details>
 <summary><strong>Open Science & AI Research Sponsorship</strong></summary>
@@ -233,6 +201,8 @@ If you find my open-source AI implementations, neural models, and development to
 * **Regional Support (Iran):** [Reymit](https://reymit.ir/danialpahlavan) • [Coffeete](http://www.coffeete.ir/danialpahlavan)
 
 </details>
+
+<br/>
 
 <div align="center">
   <sub>© 2026 Danial Pahlavan • Deep Learning, Computer Vision, RAG & Autonomous AI Systems</sub>
