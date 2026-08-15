@@ -1,17 +1,18 @@
 <div align="center">
 
-  <h1>Danial Pahlavan</h1>
-  
-  <p>
-    <strong>PhD Researcher in Artificial Intelligence | Senior AI Systems Architect (10+ Years Experience)</strong>
-  </p>
+  <!-- Futuristic Cyberpunk Wave Header Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00f2fe,100:38bdf8&height=140&section=header&text=Danial%20Pahlavan&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Senior%20AI%20Systems%20Architect%20%7C%20PhD%20Researcher%20in%20AI&descSize=16&descAlignY=62&descAlign=50" width="100%" alt="Danial Pahlavan - Senior AI Systems Architect" />
 
+  <br/>
+
+  <!-- Dynamic Typing Subtitle -->
   <a href="https://github.com/DanialPahlavan">
     <img src="https://readme-typing-svg.demolab.com/?lines=Senior+AI+Systems+Architect+(10%2B+Years+Experience);PhD+Researcher+in+Artificial+Intelligence;Autonomous+AI+Agents+%26+Reasoning+Loops;Deep+Learning%2C+Computer+Vision+%26+RAG;Neural+Model+Optimization+%26+1-Bit+Quantization;Full-Stack+Python+%26+Systems+Engineering&font=Fira+Code&center=true&width=650&height=45&color=00f2fe&vCenter=true&pause=1200&size=17" alt="Danial Pahlavan - Dynamic Headline" />
   </a>
 
   <br/><br/>
 
+  <!-- Academic, Professional & Social Credentials -->
   <p>
     <a href="https://scholar.google.com" target="_blank">
       <img src="https://img.shields.io/badge/Google_Scholar-Publications-4285F4?style=flat-square&logo=google-scholar&logoColor=white" alt="Google Scholar" />
@@ -68,6 +69,13 @@ I am a **Senior AI Systems Architect** with over a decade (10+ years) of softwar
 
 <div align="center">
 
+  <!-- High-Resolution Graphic SkillIcons Dark Strip -->
+  <p>
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,python,cs,cpp,ts,js,linux,docker,git,bash,postgres&theme=dark" alt="Technical Stack Icons" />
+    </a>
+  </p>
+
 | Domain | Verified Tools & Technologies |
 | :--- | :--- |
 | **Deep Learning & Computer Vision** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logoColor=black) ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black) |
@@ -110,14 +118,23 @@ I am a **Senior AI Systems Architect** with over a decade (10+ years) of softwar
 
   <br/>
 
-  <!-- Continuous Contribution Flow (Snake Animation) -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DanialPahlavan/DanialPahlavan/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DanialPahlavan/DanialPahlavan/output/github-contribution-grid-snake.svg">
-    <img alt="Contribution Grid Snake Animation" src="https://raw.githubusercontent.com/DanialPahlavan/DanialPahlavan/output/github-contribution-grid-snake-dark.svg" width="92%" />
-  </picture>
+  <!-- Continuous Contribution & Activity Telemetry (Compact Side-by-Side) -->
+  <table border="0" align="center" style="border-collapse: collapse; width: 95%;">
+    <tr align="center">
+      <td width="50%" align="center" style="padding: 4px; vertical-align: middle;">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DanialPahlavan/DanialPahlavan/output/github-contribution-grid-snake-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DanialPahlavan/DanialPahlavan/output/github-contribution-grid-snake.svg">
+          <img alt="Contribution Grid Snake Animation" src="https://raw.githubusercontent.com/DanialPahlavan/DanialPahlavan/output/github-contribution-grid-snake-dark.svg" width="100%" />
+        </picture>
+      </td>
+      <td width="50%" align="center" style="padding: 4px; vertical-align: middle;">
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=DanialPahlavan&theme=tokyo-night&hide_border=true&area=true&bg_color=0d1117&color=00f2fe&line=38bdf8&point=f59e0b&custom_title=Danial's%20Engineering%20Activity%20Telemetry" width="100%" alt="Danial's Engineering Activity Telemetry Graph" />
+      </td>
+    </tr>
+  </table>
 
-  <br/><br/>
+  <br/>
 
   <!-- High-Density Telemetry Matrix (Uniform 135px Height Multi-Card Dashboard) -->
   <table border="0" align="center" style="border-collapse: collapse; width: 95%;">
@@ -144,12 +161,23 @@ I am a **Senior AI Systems Architect** with over a decade (10+ years) of softwar
     </tr>
   </table>
 
-  <br/>
-
-  <!-- 30-Day Continuous Engineering Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DanialPahlavan&theme=tokyo-night&hide_border=true&area=true&bg_color=0d1117&color=00f2fe&line=38bdf8&point=f59e0b&custom_title=Danial's%20Engineering%20Activity%20Telemetry" width="92%" alt="Danial's Engineering Activity Telemetry Graph" />
-
 </div>
+
+<br/>
+
+<details>
+<summary><strong>🧊 3D Isometric Engineering Contribution Skyline</strong></summary>
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DanialPahlavan/DanialPahlavan/main/profile-3d-contrib/profile-night-view.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DanialPahlavan/DanialPahlavan/main/profile-3d-contrib/profile-green-animate.svg">
+    <img alt="Danial Pahlavan - 3D Contribution Skyline" src="https://raw.githubusercontent.com/DanialPahlavan/DanialPahlavan/main/profile-3d-contrib/profile-night-view.svg" width="95%" />
+  </picture>
+</div>
+
+</details>
 
 <br/>
 
@@ -204,6 +232,9 @@ If you find my open-source AI implementations, neural models, and development to
 
 <br/>
 
+<!-- Matching Cyberpunk Wave Footer Divider -->
 <div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00f2fe,100:38bdf8&height=80&section=footer" width="100%" alt="Footer Wave Divider" />
+  <br/>
   <sub>© 2026 Danial Pahlavan • Deep Learning, Computer Vision, RAG & Autonomous AI Systems</sub>
 </div>
