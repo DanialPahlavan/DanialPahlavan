@@ -185,6 +185,14 @@ I am a **Senior AI Systems Architect** with over a decade (10+ years) of softwar
 <summary><strong>🔬 AI Systems Architecture & Research Compute Telemetry</strong></summary>
 <br/>
 
+<div align="center">
+  <img src="assets/neural-architecture.svg" width="95%" alt="Neural Architecture & Autonomous Agent Topology" />
+  <br/><br/>
+  <img src="assets/terminal-agent.svg" width="95%" alt="Autonomous Agent Terminal Simulator" />
+</div>
+
+<br/>
+
 | Telemetry Dimension | Operational Benchmark & Systems Parameters |
 | :--- | :--- |
 | **Compute & Acceleration Infrastructure** | Dedicated Linux workstation nodes • CUDA 12.x runtime • PyTorch 2.x • TensorRT / ONNX graph compiler acceleration |
@@ -193,6 +201,18 @@ I am a **Senior AI Systems Architect** with over a decade (10+ years) of softwar
 | **RAG & Knowledge Retrieval** | Dense semantic indexing • `Atlas` few-shot models • Knowledge-oriented reading comprehension (`KoRC`) |
 | **Extreme Neural Quantization** | Low-bit weight representation (`1-bit-per-weight`) • Sub-8-bit matrix arithmetic for low-power edge deployments |
 | **Asynchronous Bot & App Frameworks** | Production async Telegram bot architectures (`aiogram`) • High-concurrency event loops • Desktop GUIs (`Tkinter`) |
+
+</details>
+
+<br/>
+
+<details>
+<summary><strong>⭐ Open-Source Stargazer Trajectory & Growth</strong></summary>
+<br/>
+
+<div align="center">
+  <img src="https://api.star-history.com/svg?repos=danialpahlavan/danialpahlavan&type=Date&theme=dark" width="95%" alt="Star History Chart" />
+</div>
 
 </details>
 
