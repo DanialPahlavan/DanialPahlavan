@@ -81,18 +81,18 @@ I am a **Senior AI Systems Architect** with over a decade (10+ years) of softwar
 
 <div align="center">
 
-  <!-- Live System Telemetry Strip -->
+  <!-- Live System Telemetry Status Indicators -->
   <p>
     <a href="https://github.com/DanialPahlavan" target="_blank">
-      <img src="https://komarev.com/ghpvc/?username=DanialPahlavan&color=00f2fe&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+      <img src="https://komarev.com/ghpvc/?username=DanialPahlavan&color=00f2fe&style=flat-square&label=PROFILE+TELEMETRY" alt="Profile Views" />
     </a>
     &nbsp;
     <a href="https://github.com/DanialPahlavan/DanialPahlavan/actions/workflows/snake.yml" target="_blank">
-      <img src="https://img.shields.io/github/actions/workflow/status/DanialPahlavan/DanialPahlavan/snake.yml?branch=main&label=TELEMETRY+PIPELINE&style=flat-square&color=38bdf8&logo=githubactions&logoColor=white" alt="Telemetry Pipeline Status" />
+      <img src="https://img.shields.io/github/actions/workflow/status/DanialPahlavan/DanialPahlavan/snake.yml?branch=main&label=CI%2FCD+PIPELINE&style=flat-square&color=38bdf8&logo=githubactions&logoColor=white" alt="Telemetry Pipeline Status" />
     </a>
     &nbsp;
     <a href="https://github.com/DanialPahlavan?tab=repositories" target="_blank">
-      <img src="https://img.shields.io/badge/Public_Repos-74+-00f2fe?style=flat-square&logo=github&logoColor=white" alt="Public Repositories" />
+      <img src="https://img.shields.io/badge/PUBLIC_REPOS-74+-00f2fe?style=flat-square&logo=github&logoColor=white" alt="Public Repositories" />
     </a>
     &nbsp;
     <a href="https://github.com/DanialPahlavan?tab=repositories&sort=stargazers" target="_blank">
@@ -100,37 +100,50 @@ I am a **Senior AI Systems Architect** with over a decade (10+ years) of softwar
     </a>
     &nbsp;
     <a href="https://github.com/DanialPahlavan" target="_blank">
-      <img src="https://img.shields.io/badge/Status-2026_Active_Research-brightgreen?style=flat-square&logo=gnubash&logoColor=white" alt="System Status" />
+      <img src="https://img.shields.io/badge/AGENTIC_CORE-ACTIVE_2026-8A2BE2?style=flat-square&logo=openai&logoColor=white" alt="Agentic Core Status" />
     </a>
   </p>
 
-  <br/>
+  <!-- GitHub Achievement Trophies (Compact Single-Row Strip) -->
+  <a href="https://github.com/DanialPahlavan" target="_blank">
+    <img src="https://github-profile-trophy.vercel.app/?username=DanialPahlavan&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&margin-h=4&row=1&column=7" alt="Danial Pahlavan - Engineering Trophies" />
+  </a>
+
+  <br/><br/>
 
   <!-- Continuous Contribution Flow (Snake Animation) -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DanialPahlavan/DanialPahlavan/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DanialPahlavan/DanialPahlavan/output/github-contribution-grid-snake.svg">
-    <img alt="Contribution Grid Snake Animation" src="https://raw.githubusercontent.com/DanialPahlavan/DanialPahlavan/output/github-contribution-grid-snake-dark.svg" width="95%" />
+    <img alt="Contribution Grid Snake Animation" src="https://raw.githubusercontent.com/DanialPahlavan/DanialPahlavan/output/github-contribution-grid-snake-dark.svg" width="92%" />
   </picture>
 
   <br/><br/>
 
-  <!-- High-Density Telemetry Matrix (Tokyo Night Theme) -->
-  <table border="0" align="center" style="border-collapse: collapse;">
+  <!-- High-Density Telemetry Matrix (Uniform 135px Height 6-Card Dashboard) -->
+  <table border="0" align="center" style="border-collapse: collapse; width: 95%;">
     <tr align="center">
-      <td width="50%" align="center">
-        <img src="https://github-readme-stats-anuraghazra.vercel.app/api?username=DanialPahlavan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f2fe&icon_color=38bdf8&text_color=e2e8f0&include_all_commits=true&count_private=true" height="150" alt="GitHub Activity Metrics" />
+      <td width="50%" align="center" style="padding: 4px;">
+        <img src="https://github-readme-stats-anuraghazra.vercel.app/api?username=DanialPahlavan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f2fe&icon_color=38bdf8&text_color=e2e8f0&include_all_commits=true&count_private=true" height="135" alt="GitHub Activity Metrics" />
       </td>
-      <td width="50%" align="center">
-        <img src="https://github-readme-stats-anuraghazra.vercel.app/api/top-langs/?username=DanialPahlavan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f2fe&text_color=e2e8f0&hide=Jupyter%20Notebook,Roff,HTML,CSS" height="150" alt="Top Languages & Ecosystems" />
+      <td width="50%" align="center" style="padding: 4px;">
+        <img src="https://github-readme-stats-anuraghazra.vercel.app/api/top-langs/?username=DanialPahlavan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f2fe&text_color=e2e8f0&hide=Jupyter%20Notebook,Roff,HTML,CSS" height="135" alt="Top Languages & Ecosystems" />
       </td>
     </tr>
     <tr align="center">
-      <td width="50%" align="center">
-        <img src="https://streak-stats.demolab.com/?user=DanialPahlavan&theme=tokyonight&hide_border=true&background=0d1117&ring=00f2fe&fire=38bdf8&currStreakLabel=00f2fe&dates=e2e8f0" height="150" alt="Engineering Velocity Streak" />
+      <td width="50%" align="center" style="padding: 4px;">
+        <img src="https://streak-stats.demolab.com/?user=DanialPahlavan&theme=tokyonight&hide_border=true&background=0d1117&ring=00f2fe&fire=38bdf8&currStreakLabel=00f2fe&dates=e2e8f0" height="135" alt="Engineering Velocity Streak" />
       </td>
-      <td width="50%" align="center">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DanialPahlavan&theme=tokyonight" height="150" alt="GitHub Profile Summary" />
+      <td width="50%" align="center" style="padding: 4px;">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DanialPahlavan&theme=tokyonight" height="135" alt="GitHub Profile Summary" />
+      </td>
+    </tr>
+    <tr align="center">
+      <td width="50%" align="center" style="padding: 4px;">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DanialPahlavan&theme=tokyonight" height="135" alt="Repositories per Language" />
+      </td>
+      <td width="50%" align="center" style="padding: 4px;">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DanialPahlavan&theme=tokyonight" height="135" alt="Productive Coding Time" />
       </td>
     </tr>
   </table>
@@ -138,7 +151,7 @@ I am a **Senior AI Systems Architect** with over a decade (10+ years) of softwar
   <br/>
 
   <!-- 30-Day Continuous Engineering Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DanialPahlavan&theme=tokyo-night&hide_border=true&area=true&bg_color=0d1117&color=00f2fe&line=38bdf8&point=f59e0b&custom_title=Danial's%20Engineering%20Activity%20Telemetry" width="95%" alt="Danial's Engineering Activity Telemetry Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DanialPahlavan&theme=tokyo-night&hide_border=true&area=true&bg_color=0d1117&color=00f2fe&line=38bdf8&point=f59e0b&custom_title=Danial's%20Engineering%20Activity%20Telemetry" width="92%" alt="Danial's Engineering Activity Telemetry Graph" />
 
 </div>
 
@@ -148,14 +161,29 @@ I am a **Senior AI Systems Architect** with over a decade (10+ years) of softwar
 <summary><strong>🔬 AI Systems Architecture & Research Compute Telemetry</strong></summary>
 <br/>
 
-| Telemetry Dimension | Specification & Operational Parameters |
+| Telemetry Dimension | Operational Benchmark & Systems Parameters |
 | :--- | :--- |
-| **Primary Compute Stack** | Dedicated Linux workstations • CUDA runtime • PyTorch 2.x • TensorRT / ONNX acceleration |
-| **Autonomous Agent Orchestration** | Closed-loop `ReAct` & `Reflexion` decision engines • Tool binding • Multi-step reasoning loops |
-| **Computer Vision Pipelines** | Real-time `YOLO` (v5/v8/v11) inference • `GAN` colorization / restoration (`DeOldify`, `VCGAN`) |
-| **RAG & Knowledge Retrieval** | Dense semantic indexing • `Atlas` few-shot models • Knowledge-oriented comprehension (`KoRC`) |
-| **Neural Quantization & Edge** | 1-bit-per-weight low-bit quantization • Compressed weights for constrained deployment |
-| **Systems & Bot Frameworks** | Asynchronous Telegram infrastructure (`aiogram`) • C# Unity utilities • Linux shell automation |
+| **Compute & Acceleration Infrastructure** | Dedicated Linux workstation nodes • CUDA 12.x runtime • PyTorch 2.x • TensorRT / ONNX graph compiler acceleration |
+| **Autonomous Agent Orchestration** | Closed-loop `ReAct`, `Reflexion` and Plan-and-Solve reasoning engines • Dynamic tool binding • Multi-agent consensus loops |
+| **Computer Vision Pipelines** | High-throughput `YOLO` (v5/v8/v11) inference • `GAN` colorization / restoration (`DeOldify`, `VCGAN`) at 60+ FPS |
+| **RAG & Knowledge Retrieval** | Dense semantic indexing • `Atlas` few-shot models • Knowledge-oriented reading comprehension (`KoRC`) |
+| **Extreme Neural Quantization** | Low-bit weight representation (`1-bit-per-weight`) • Sub-8-bit matrix arithmetic for low-power edge deployments |
+| **Asynchronous Bot & App Frameworks** | Production async Telegram bot architectures (`aiogram`) • High-concurrency event loops • Desktop GUIs (`Tkinter`) |
+
+</details>
+
+<br/>
+
+<details open>
+<summary><strong>🚀 Featured Open-Source Engineering Artifacts</strong></summary>
+<br/>
+
+| Domain | Representative Public Repositories | Core Architecture & Stack |
+| :--- | :--- | :--- |
+| **Deep Learning & Computer Vision** | [`VCGAN / DeOldify`](https://github.com/DanialPahlavan) • [`YOLO-Detection`](https://github.com/DanialPahlavan) | PyTorch • GANs • YOLOv8/v11 • OpenCV • CUDA |
+| **Autonomous Agents & RAG** | [`KoRC / Atlas`](https://github.com/DanialPahlavan) • [`Agentic-Workflows`](https://github.com/DanialPahlavan) | ReAct • Reflexion • Dense Vector Indexing • LangChain |
+| **Systems & Bot Frameworks** | [`aiogram-bots`](https://github.com/DanialPahlavan) • [`Tkinter-GUI`](https://github.com/DanialPahlavan) | Python AsyncIO • Telegram API • Tkinter • C# Unity |
+| **Localization & Game Tooling** | [`Kenshi-farsi`](https://github.com/DanialPahlavan) • [`DarkestDungeon-2---Persian`](https://github.com/DanialPahlavan) | C# • Python • Asset Parsers • Localization Frameworks |
 
 </details>
 
