@@ -57,11 +57,6 @@
       <stop offset="100%" stop-color="#d97706" stop-opacity="0.08" />
     </linearGradient>
 
-    <linearGradient id="pillGradTeal" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.18" />
-      <stop offset="100%" stop-color="#0891b2" stop-opacity="0.08" />
-    </linearGradient>
-
     <linearGradient id="pillGradGreen" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#34d399" stop-opacity="0.18" />
       <stop offset="100%" stop-color="#059669" stop-opacity="0.08" />
@@ -101,7 +96,7 @@
   <!-- Container Box -->
   <rect width="850" height="470" class="stack-bg" />
 
-  <!-- Flowing Fiber-Optic Neural Streams Behind Cards (Inspired by Image 2) -->
+  <!-- Flowing Fiber-Optic Neural Streams Behind Cards -->
   <path d="M 30 70 C 200 40, 300 200, 425 240 C 550 280, 650 150, 820 180" stroke="url(#streamCyan)" class="stream-line" opacity="0.35" />
   <path d="M 30 200 C 180 180, 350 350, 425 250 C 500 150, 680 400, 820 340" stroke="url(#streamPink)" class="stream-line" opacity="0.35" />
   <path d="M 30 350 C 150 400, 320 100, 425 230 C 530 360, 700 80, 820 100" stroke="url(#streamGold)" class="stream-line" opacity="0.35" />
@@ -116,19 +111,19 @@
   <circle cx="56" cy="17" r="5.5" fill="#27c93f" />
 
   <!-- Window Breadcrumb -->
-  <text x="425" y="22" text-anchor="middle" class="stack-title">danial@ai-lab: ~/matrix/stack_config.json --fiber-optic-neural-matrix</text>
-  <text x="825" y="22" text-anchor="end" class="font-mono" font-size="10" fill="#38bdf8" font-weight="600">[NEURAL MATRIX 2026]</text>
+  <text x="425" y="22" text-anchor="middle" class="stack-title">danial@ai-lab: ~/ai_systems/verified_ai_stack.json --pure-ai-engineering</text>
+  <text x="825" y="22" text-anchor="end" class="font-mono" font-size="10" fill="#38bdf8" font-weight="600">[AI SYSTEMS 2026]</text>
 
   <!-- Content Body -->
   <g transform="translate(24, 48)">
     
     <!-- Command Line -->
     <text y="14" class="font-mono" font-size="12">
-      <tspan fill="#8b949e">danial@ai-lab:~$</tspan> <tspan class="prompt-cmd">sysctl --get-verified-stack --fiber-synapses</tspan> <tspan fill="#22c55e" font-size="10.5">[STATUS: 100% PRODUCTION-READY]</tspan>
+      <tspan fill="#8b949e">danial@ai-lab:~$</tspan> <tspan class="prompt-cmd">sysctl --get-verified-stack --ai-domains-only</tspan> <tspan fill="#22c55e" font-size="10.5">[STATUS: 100% PRODUCTION-READY]</tspan>
     </text>
 
     <!-- ================= ROW 1 (y = 28) ================= -->
-    <!-- Block 1: Visual Perception -->
+    <!-- Block 1: Computer Vision & Deep Learning -->
     <g transform="translate(0, 28)">
       <rect width="392" height="96" class="card-box" stroke="#00f2fe" stroke-opacity="0.6" />
       <path d="M 4 12 L 4 4 L 12 4" class="hud-bracket" stroke="#00f2fe" />
@@ -137,8 +132,8 @@
       <path d="M 388 84 L 388 92 L 380 92" class="hud-bracket" stroke="#00f2fe" />
 
       <circle cx="16" cy="18" r="4" fill="#00f2fe" filter="url(#stackGlow)" />
-      <text x="26" y="21" class="card-title" fill="#00f2fe">LAYER 01: VISUAL PERCEPTION PERCEPTRONS</text>
-      <text x="376" y="21" text-anchor="end" class="card-chip" fill="#00f2fe">[TENSOR: B×3×H×W]</text>
+      <text x="26" y="21" class="card-title" fill="#00f2fe">LAYER 01: COMPUTER VISION &amp; DEEP LEARNING</text>
+      <text x="376" y="21" text-anchor="end" class="card-chip" fill="#00f2fe">[CONVNETS / GANS]</text>
 
       <!-- Tech Pills Row 1 -->
       <g transform="translate(12, 34)">
@@ -177,7 +172,7 @@
       </g>
     </g>
 
-    <!-- Block 2: Attention & RAG -->
+    <!-- Block 2: Retrieval-Augmented Generation -->
     <g transform="translate(410, 28)">
       <rect width="392" height="96" class="card-box" stroke="#c084fc" stroke-opacity="0.6" />
       <path d="M 4 12 L 4 4 L 12 4" class="hud-bracket" stroke="#c084fc" />
@@ -186,44 +181,40 @@
       <path d="M 388 84 L 388 92 L 380 92" class="hud-bracket" stroke="#c084fc" />
 
       <circle cx="16" cy="18" r="4" fill="#c084fc" filter="url(#stackGlow)" />
-      <text x="26" y="21" class="card-title" fill="#c084fc">LAYER 02: ATTENTION &amp; DENSE RAG EMBEDDINGS</text>
-      <text x="376" y="21" text-anchor="end" class="card-chip" fill="#c084fc">[ATTN: MULTI-HEAD]</text>
+      <text x="26" y="21" class="card-title" fill="#c084fc">LAYER 02: RETRIEVAL-AUGMENTED GENERATION (RAG)</text>
+      <text x="376" y="21" text-anchor="end" class="card-chip" fill="#c084fc">[DENSE RETRIEVAL]</text>
 
       <!-- Tech Pills Row 1 -->
       <g transform="translate(12, 34)">
-        <rect width="90" height="20" fill="url(#pillGradPurple)" stroke="#c084fc" stroke-opacity="0.4" class="pill-bg" />
-        <text x="45" y="14" text-anchor="middle" class="pill-text">ReAct Loops</text>
+        <rect width="108" height="20" fill="url(#pillGradPurple)" stroke="#c084fc" stroke-opacity="0.4" class="pill-bg" />
+        <text x="54" y="14" text-anchor="middle" class="pill-text">Atlas Few-Shot</text>
       </g>
-      <g transform="translate(108, 34)">
-        <rect width="98" height="20" fill="url(#pillGradPurple)" stroke="#c084fc" stroke-opacity="0.4" class="pill-bg" />
-        <text x="49" y="14" text-anchor="middle" class="pill-text">Reflexion Core</text>
+      <g transform="translate(126, 34)">
+        <rect width="138" height="20" fill="url(#pillGradPurple)" stroke="#c084fc" stroke-opacity="0.4" class="pill-bg" />
+        <text x="69" y="14" text-anchor="middle" class="pill-text">KoRC Comprehension</text>
       </g>
-      <g transform="translate(212, 34)">
-        <rect width="78" height="20" fill="url(#pillGradPurple)" stroke="#c084fc" stroke-opacity="0.4" class="pill-bg" />
-        <text x="39" y="14" text-anchor="middle" class="pill-text">LangChain</text>
-      </g>
-      <g transform="translate(296, 34)">
-        <rect width="80" height="20" fill="url(#pillGradPurple)" stroke="#c084fc" stroke-opacity="0.4" class="pill-bg" />
-        <text x="40" y="14" text-anchor="middle" class="pill-text">Tool Binding</text>
+      <g transform="translate(270, 34)">
+        <rect width="106" height="20" fill="url(#pillGradPurple)" stroke="#c084fc" stroke-opacity="0.4" class="pill-bg" />
+        <text x="53" y="14" text-anchor="middle" class="pill-text">LangChain Core</text>
       </g>
 
       <!-- Tech Pills Row 2 -->
       <g transform="translate(12, 62)">
-        <rect width="108" height="20" fill="url(#pillGradPurple)" stroke="#c084fc" stroke-opacity="0.4" class="pill-bg" />
-        <text x="54" y="14" text-anchor="middle" class="pill-text">Atlas Dense RAG</text>
+        <rect width="124" height="20" fill="url(#pillGradPurple)" stroke="#c084fc" stroke-opacity="0.4" class="pill-bg" />
+        <text x="62" y="14" text-anchor="middle" class="pill-text">Dense Vector Store</text>
       </g>
-      <g transform="translate(126, 62)">
-        <rect width="128" height="20" fill="url(#pillGradPurple)" stroke="#c084fc" stroke-opacity="0.4" class="pill-bg" />
-        <text x="64" y="14" text-anchor="middle" class="pill-text">KoRC Comprehension</text>
+      <g transform="translate(142, 62)">
+        <rect width="118" height="20" fill="url(#pillGradPurple)" stroke="#c084fc" stroke-opacity="0.4" class="pill-bg" />
+        <text x="59" y="14" text-anchor="middle" class="pill-text">Semantic Indexing</text>
       </g>
-      <g transform="translate(260, 62)">
-        <rect width="116" height="20" fill="url(#pillGradPurple)" stroke="#c084fc" stroke-opacity="0.4" class="pill-bg" />
-        <text x="58" y="14" text-anchor="middle" class="pill-text">1-Bit Quantization</text>
+      <g transform="translate(266, 62)">
+        <rect width="110" height="20" fill="url(#pillGradPurple)" stroke="#c084fc" stroke-opacity="0.4" class="pill-bg" />
+        <text x="55" y="14" text-anchor="middle" class="pill-text">RAG Pipelines</text>
       </g>
     </g>
 
     <!-- ================= ROW 2 (y = 136) ================= -->
-    <!-- Block 3: Systems & Runtimes -->
+    <!-- Block 3: Autonomous Agents -->
     <g transform="translate(0, 136)">
       <rect width="392" height="96" class="card-box" stroke="#38bdf8" stroke-opacity="0.6" />
       <path d="M 4 12 L 4 4 L 12 4" class="hud-bracket" stroke="#38bdf8" />
@@ -232,48 +223,82 @@
       <path d="M 388 84 L 388 92 L 380 92" class="hud-bracket" stroke="#38bdf8" />
 
       <circle cx="16" cy="18" r="4" fill="#38bdf8" filter="url(#stackGlow)" />
-      <text x="26" y="21" class="card-title" fill="#38bdf8">LAYER 03: SYSTEMS &amp; LOW-LEVEL RUNTIMES</text>
-      <text x="376" y="21" text-anchor="end" class="card-chip" fill="#38bdf8">[CONCURRENCY: ASYNC]</text>
+      <text x="26" y="21" class="card-title" fill="#38bdf8">LAYER 03: AUTONOMOUS AGENTS &amp; REASONING</text>
+      <text x="376" y="21" text-anchor="end" class="card-chip" fill="#38bdf8">[AGENTIC LOOPS]</text>
 
       <!-- Tech Pills Row 1 -->
       <g transform="translate(12, 34)">
-        <rect width="112" height="20" fill="url(#pillGradSky)" stroke="#38bdf8" stroke-opacity="0.4" class="pill-bg" />
-        <text x="56" y="14" text-anchor="middle" class="pill-text">Python (AsyncIO)</text>
+        <rect width="90" height="20" fill="url(#pillGradSky)" stroke="#38bdf8" stroke-opacity="0.4" class="pill-bg" />
+        <text x="45" y="14" text-anchor="middle" class="pill-text">ReAct Loops</text>
       </g>
-      <g transform="translate(130, 34)">
-        <rect width="68" height="20" fill="url(#pillGradSky)" stroke="#38bdf8" stroke-opacity="0.4" class="pill-bg" />
-        <text x="34" y="14" text-anchor="middle" class="pill-text">C# (.NET)</text>
+      <g transform="translate(108, 34)">
+        <rect width="108" height="20" fill="url(#pillGradSky)" stroke="#38bdf8" stroke-opacity="0.4" class="pill-bg" />
+        <text x="54" y="14" text-anchor="middle" class="pill-text">Reflexion Engine</text>
       </g>
-      <g transform="translate(204, 34)">
-        <rect width="60" height="20" fill="url(#pillGradSky)" stroke="#38bdf8" stroke-opacity="0.4" class="pill-bg" />
-        <text x="30" y="14" text-anchor="middle" class="pill-text">C / C++</text>
-      </g>
-      <g transform="translate(270, 34)">
-        <rect width="106" height="20" fill="url(#pillGradSky)" stroke="#38bdf8" stroke-opacity="0.4" class="pill-bg" />
-        <text x="53" y="14" text-anchor="middle" class="pill-text">Bash / Shell CLI</text>
+      <g transform="translate(222, 34)">
+        <rect width="154" height="20" fill="url(#pillGradSky)" stroke="#38bdf8" stroke-opacity="0.4" class="pill-bg" />
+        <text x="77" y="14" text-anchor="middle" class="pill-text">Plan-and-Solve Logic</text>
       </g>
 
       <!-- Tech Pills Row 2 -->
       <g transform="translate(12, 62)">
-        <rect width="82" height="20" fill="url(#pillGradSky)" stroke="#38bdf8" stroke-opacity="0.4" class="pill-bg" />
-        <text x="41" y="14" text-anchor="middle" class="pill-text">TypeScript</text>
+        <rect width="124" height="20" fill="url(#pillGradSky)" stroke="#38bdf8" stroke-opacity="0.4" class="pill-bg" />
+        <text x="62" y="14" text-anchor="middle" class="pill-text">Dynamic Tool Binding</text>
       </g>
-      <g transform="translate(100, 62)">
-        <rect width="78" height="20" fill="url(#pillGradSky)" stroke="#38bdf8" stroke-opacity="0.4" class="pill-bg" />
-        <text x="39" y="14" text-anchor="middle" class="pill-text">JavaScript</text>
+      <g transform="translate(142, 62)">
+        <rect width="128" height="20" fill="url(#pillGradSky)" stroke="#38bdf8" stroke-opacity="0.4" class="pill-bg" />
+        <text x="64" y="14" text-anchor="middle" class="pill-text">Multi-Agent Systems</text>
       </g>
-      <g transform="translate(184, 62)">
-        <rect width="90" height="20" fill="url(#pillGradSky)" stroke="#38bdf8" stroke-opacity="0.4" class="pill-bg" />
-        <text x="45" y="14" text-anchor="middle" class="pill-text">SQL (Postgres)</text>
-      </g>
-      <g transform="translate(280, 62)">
-        <rect width="96" height="20" fill="url(#pillGradSky)" stroke="#38bdf8" stroke-opacity="0.4" class="pill-bg" />
-        <text x="48" y="14" text-anchor="middle" class="pill-text">Binary Engines</text>
+      <g transform="translate(276, 62)">
+        <rect width="100" height="20" fill="url(#pillGradSky)" stroke="#38bdf8" stroke-opacity="0.4" class="pill-bg" />
+        <text x="50" y="14" text-anchor="middle" class="pill-text">Self-Correction</text>
       </g>
     </g>
 
-    <!-- Block 4: Tensor Algebra -->
+    <!-- Block 4: Quantization & Efficiency -->
     <g transform="translate(410, 136)">
+      <rect width="392" height="96" class="card-box" stroke="#34d399" stroke-opacity="0.6" />
+      <path d="M 4 12 L 4 4 L 12 4" class="hud-bracket" stroke="#34d399" />
+      <path d="M 388 12 L 388 4 L 380 4" class="hud-bracket" stroke="#34d399" />
+      <path d="M 4 84 L 4 92 L 12 92" class="hud-bracket" stroke="#34d399" />
+      <path d="M 388 84 L 388 92 L 380 92" class="hud-bracket" stroke="#34d399" />
+
+      <circle cx="16" cy="18" r="4" fill="#34d399" filter="url(#stackGlow)" />
+      <text x="26" y="21" class="card-title" fill="#34d399">LAYER 04: MODEL QUANTIZATION &amp; EFFICIENCY</text>
+      <text x="376" y="21" text-anchor="end" class="card-chip" fill="#34d399">[EDGE RUNTIME]</text>
+
+      <!-- Tech Pills Row 1 -->
+      <g transform="translate(12, 34)">
+        <rect width="118" height="20" fill="url(#pillGradGreen)" stroke="#34d399" stroke-opacity="0.4" class="pill-bg" />
+        <text x="59" y="14" text-anchor="middle" class="pill-text">1-Bit-Per-Weight</text>
+      </g>
+      <g transform="translate(136, 34)">
+        <rect width="118" height="20" fill="url(#pillGradGreen)" stroke="#34d399" stroke-opacity="0.4" class="pill-bg" />
+        <text x="59" y="14" text-anchor="middle" class="pill-text">Wide ResNet Opt</text>
+      </g>
+      <g transform="translate(260, 34)">
+        <rect width="116" height="20" fill="url(#pillGradGreen)" stroke="#34d399" stroke-opacity="0.4" class="pill-bg" />
+        <text x="58" y="14" text-anchor="middle" class="pill-text">Sub-8-Bit Weights</text>
+      </g>
+
+      <!-- Tech Pills Row 2 -->
+      <g transform="translate(12, 62)">
+        <rect width="138" height="20" fill="url(#pillGradGreen)" stroke="#34d399" stroke-opacity="0.4" class="pill-bg" />
+        <text x="69" y="14" text-anchor="middle" class="pill-text">Variational Inference</text>
+      </g>
+      <g transform="translate(156, 62)">
+        <rect width="116" height="20" fill="url(#pillGradGreen)" stroke="#34d399" stroke-opacity="0.4" class="pill-bg" />
+        <text x="58" y="14" text-anchor="middle" class="pill-text">TensorRT Graph</text>
+      </g>
+      <g transform="translate(278, 62)">
+        <rect width="98" height="20" fill="url(#pillGradGreen)" stroke="#34d399" stroke-opacity="0.4" class="pill-bg" />
+        <text x="49" y="14" text-anchor="middle" class="pill-text">DeepSMOTE</text>
+      </g>
+    </g>
+
+    <!-- ================= ROW 3 (y = 244) ================= -->
+    <!-- Block 5: Data Science & ML -->
+    <g transform="translate(0, 244)">
       <rect width="392" height="96" class="card-box" stroke="#f59e0b" stroke-opacity="0.6" />
       <path d="M 4 12 L 4 4 L 12 4" class="hud-bracket" stroke="#f59e0b" />
       <path d="M 388 12 L 388 4 L 380 4" class="hud-bracket" stroke="#f59e0b" />
@@ -281,8 +306,8 @@
       <path d="M 388 84 L 388 92 L 380 92" class="hud-bracket" stroke="#f59e0b" />
 
       <circle cx="16" cy="18" r="4" fill="#f59e0b" filter="url(#stackGlow)" />
-      <text x="26" y="21" class="card-title" fill="#f59e0b">LAYER 04: TENSOR ALGEBRA &amp; ML ECOSYSTEM</text>
-      <text x="376" y="21" text-anchor="end" class="card-chip" fill="#f59e0b">[MATH: ℝ^{N×D}]</text>
+      <text x="26" y="21" class="card-title" fill="#f59e0b">LAYER 05: DATA SCIENCE &amp; ML ECOSYSTEM</text>
+      <text x="376" y="21" text-anchor="end" class="card-chip" fill="#f59e0b">[TENSOR MATH]</text>
 
       <!-- Tech Pills Row 1 -->
       <g transform="translate(12, 34)">
@@ -321,86 +346,44 @@
       </g>
     </g>
 
-    <!-- ================= ROW 3 (y = 244) ================= -->
-    <!-- Block 5: Bot & GUI -->
-    <g transform="translate(0, 244)">
-      <rect width="392" height="96" class="card-box" stroke="#22d3ee" stroke-opacity="0.6" />
-      <path d="M 4 12 L 4 4 L 12 4" class="hud-bracket" stroke="#22d3ee" />
-      <path d="M 388 12 L 388 4 L 380 4" class="hud-bracket" stroke="#22d3ee" />
-      <path d="M 4 84 L 4 92 L 12 92" class="hud-bracket" stroke="#22d3ee" />
-      <path d="M 388 84 L 388 92 L 380 92" class="hud-bracket" stroke="#22d3ee" />
-
-      <circle cx="16" cy="18" r="4" fill="#22d3ee" filter="url(#stackGlow)" />
-      <text x="26" y="21" class="card-title" fill="#22d3ee">LAYER 05: ASYNC BOT ENGINES &amp; DESKTOP GUIS</text>
-      <text x="376" y="21" text-anchor="end" class="card-chip" fill="#22d3ee">[EVENT-DRIVEN]</text>
-
-      <!-- Tech Pills Row 1 -->
-      <g transform="translate(12, 34)">
-        <rect width="118" height="20" fill="url(#pillGradTeal)" stroke="#22d3ee" stroke-opacity="0.4" class="pill-bg" />
-        <text x="59" y="14" text-anchor="middle" class="pill-text">aiogram (Async V3)</text>
-      </g>
-      <g transform="translate(136, 34)">
-        <rect width="112" height="20" fill="url(#pillGradTeal)" stroke="#22d3ee" stroke-opacity="0.4" class="pill-bg" />
-        <text x="56" y="14" text-anchor="middle" class="pill-text">Telegram Bot API</text>
-      </g>
-      <g transform="translate(254, 34)">
-        <rect width="122" height="20" fill="url(#pillGradTeal)" stroke="#22d3ee" stroke-opacity="0.4" class="pill-bg" />
-        <text x="61" y="14" text-anchor="middle" class="pill-text">Tkinter Architectures</text>
-      </g>
-
-      <!-- Tech Pills Row 2 -->
-      <g transform="translate(12, 62)">
-        <rect width="124" height="20" fill="url(#pillGradTeal)" stroke="#22d3ee" stroke-opacity="0.4" class="pill-bg" />
-        <text x="62" y="14" text-anchor="middle" class="pill-text">Unity Game Engine</text>
-      </g>
-      <g transform="translate(142, 62)">
-        <rect width="110" height="20" fill="url(#pillGradTeal)" stroke="#22d3ee" stroke-opacity="0.4" class="pill-bg" />
-        <text x="55" y="14" text-anchor="middle" class="pill-text">Custom GUI Tooling</text>
-      </g>
-      <g transform="translate(258, 62)">
-        <rect width="118" height="20" fill="url(#pillGradTeal)" stroke="#22d3ee" stroke-opacity="0.4" class="pill-bg" />
-        <text x="59" y="14" text-anchor="middle" class="pill-text">High-Event Dispatch</text>
-      </g>
-    </g>
-
-    <!-- Block 6: Infrastructure -->
+    <!-- Block 6: AI Infrastructure & Runtime -->
     <g transform="translate(410, 244)">
-      <rect width="392" height="96" class="card-box" stroke="#34d399" stroke-opacity="0.6" />
-      <path d="M 4 12 L 4 4 L 12 4" class="hud-bracket" stroke="#34d399" />
-      <path d="M 388 12 L 388 4 L 380 4" class="hud-bracket" stroke="#34d399" />
-      <path d="M 4 84 L 4 92 L 12 92" class="hud-bracket" stroke="#34d399" />
-      <path d="M 388 84 L 388 92 L 380 92" class="hud-bracket" stroke="#34d399" />
+      <rect width="392" height="96" class="card-box" stroke="#00f2fe" stroke-opacity="0.6" />
+      <path d="M 4 12 L 4 4 L 12 4" class="hud-bracket" stroke="#00f2fe" />
+      <path d="M 388 12 L 388 4 L 380 4" class="hud-bracket" stroke="#00f2fe" />
+      <path d="M 4 84 L 4 92 L 12 92" class="hud-bracket" stroke="#00f2fe" />
+      <path d="M 388 84 L 388 92 L 380 92" class="hud-bracket" stroke="#00f2fe" />
 
-      <circle cx="16" cy="18" r="4" fill="#34d399" filter="url(#stackGlow)" />
-      <text x="26" y="21" class="card-title" fill="#34d399">LAYER 06: ACCELERATOR &amp; RUNTIME INFRASTRUCTURE</text>
-      <text x="376" y="21" text-anchor="end" class="card-chip" fill="#34d399">[CUDA 12.x / TENSORRT]</text>
+      <circle cx="16" cy="18" r="4" fill="#00f2fe" filter="url(#stackGlow)" />
+      <text x="26" y="21" class="card-title" fill="#00f2fe">LAYER 06: AI RUNTIME &amp; COMPUTE ACCELERATION</text>
+      <text x="376" y="21" text-anchor="end" class="card-chip" fill="#00f2fe">[CUDA / TENSORRT]</text>
 
       <!-- Tech Pills Row 1 -->
       <g transform="translate(12, 34)">
-        <rect width="140" height="20" fill="url(#pillGradGreen)" stroke="#34d399" stroke-opacity="0.4" class="pill-bg" />
-        <text x="70" y="14" text-anchor="middle" class="pill-text">Linux Workstations</text>
+        <rect width="138" height="20" fill="url(#pillGradCyan)" stroke="#00f2fe" stroke-opacity="0.4" class="pill-bg" />
+        <text x="69" y="14" text-anchor="middle" class="pill-text">Linux GPU Clusters</text>
       </g>
-      <g transform="translate(158, 34)">
-        <rect width="118" height="20" fill="url(#pillGradGreen)" stroke="#34d399" stroke-opacity="0.4" class="pill-bg" />
-        <text x="59" y="14" text-anchor="middle" class="pill-text">Docker Containers</text>
+      <g transform="translate(156, 34)">
+        <rect width="128" height="20" fill="url(#pillGradCyan)" stroke="#00f2fe" stroke-opacity="0.4" class="pill-bg" />
+        <text x="64" y="14" text-anchor="middle" class="pill-text">CUDA 12.x Runtime</text>
       </g>
-      <g transform="translate(282, 34)">
-        <rect width="94" height="20" fill="url(#pillGradGreen)" stroke="#34d399" stroke-opacity="0.4" class="pill-bg" />
-        <text x="47" y="14" text-anchor="middle" class="pill-text">Git SCM Flow</text>
+      <g transform="translate(290, 34)">
+        <rect width="86" height="20" fill="url(#pillGradCyan)" stroke="#00f2fe" stroke-opacity="0.4" class="pill-bg" />
+        <text x="43" y="14" text-anchor="middle" class="pill-text">Docker ML</text>
       </g>
 
       <!-- Tech Pills Row 2 -->
       <g transform="translate(12, 62)">
-        <rect width="118" height="20" fill="url(#pillGradGreen)" stroke="#34d399" stroke-opacity="0.4" class="pill-bg" />
-        <text x="59" y="14" text-anchor="middle" class="pill-text">CUDA 12.x Runtime</text>
+        <rect width="138" height="20" fill="url(#pillGradCyan)" stroke="#00f2fe" stroke-opacity="0.4" class="pill-bg" />
+        <text x="69" y="14" text-anchor="middle" class="pill-text">TensorRT Compilers</text>
       </g>
-      <g transform="translate(136, 62)">
-        <rect width="128" height="20" fill="url(#pillGradGreen)" stroke="#34d399" stroke-opacity="0.4" class="pill-bg" />
-        <text x="64" y="14" text-anchor="middle" class="pill-text">TensorRT Compilers</text>
+      <g transform="translate(156, 62)">
+        <rect width="108" height="20" fill="url(#pillGradCyan)" stroke="#00f2fe" stroke-opacity="0.4" class="pill-bg" />
+        <text x="54" y="14" text-anchor="middle" class="pill-text">ONNX Runtimes</text>
       </g>
       <g transform="translate(270, 62)">
-        <rect width="106" height="20" fill="url(#pillGradGreen)" stroke="#34d399" stroke-opacity="0.4" class="pill-bg" />
-        <text x="53" y="14" text-anchor="middle" class="pill-text">System Runtimes</text>
+        <rect width="106" height="20" fill="url(#pillGradCyan)" stroke="#00f2fe" stroke-opacity="0.4" class="pill-bg" />
+        <text x="53" y="14" text-anchor="middle" class="pill-text">Git SCM Flow</text>
       </g>
     </g>
 
@@ -408,7 +391,7 @@
     <g transform="translate(0, 366)">
       <rect width="802" height="28" fill="#161b22" stroke="#30363d" stroke-width="1" rx="5" />
       <text x="12" y="18" class="font-mono" font-size="11.5" fill="#8b949e">
-        danial@ai-lab:~$ <tspan fill="#00f2fe">echo $FIBER_SYNAPSE_STATUS</tspan> <tspan fill="#22c55e" font-weight="bold">[FIBER-OPTIC SYNAPSE STREAMS CONVERGED &amp; ACTIVE]</tspan>
+        danial@ai-lab:~$ <tspan fill="#00f2fe">echo $AI_STACK_STATUS</tspan> <tspan fill="#22c55e" font-weight="bold">[ALL 6 AI ENGINEERING TIERS CONVERGED &amp; VERIFIED]</tspan>
         <tspan class="cursor-blink" dx="6">█</tspan>
       </text>
     </g>

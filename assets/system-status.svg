@@ -58,18 +58,18 @@
   
   <!-- Firing Synapse Beacon -->
   <circle cx="18" cy="16" r="4" fill="#22c55e" filter="url(#hudGlow)" class="status-pulse" />
-  <text x="32" y="20" class="hud-title">NEURAL COMPUTE &amp; SYNAPTIC FIRING TELEMETRY HUD</text>
-  <text x="780" y="20" text-anchor="end" class="font-mono" font-size="10.5" fill="#22c55e" font-weight="bold">SYNAPTIC FLOPs: OPTIMAL • LATENCY &lt;1ms</text>
+  <text x="32" y="20" class="hud-title">AI SYSTEMS ARCHITECTURE &amp; RESEARCH COMPUTE TELEMETRY HUD</text>
+  <text x="780" y="20" text-anchor="end" class="font-mono" font-size="10.5" fill="#22c55e" font-weight="bold">AI CLUSTER: OPTIMAL • LATENCY &lt;1ms</text>
 
-  <!-- Metric 1: Synaptic Throughput (x = 20) -->
+  <!-- Metric 1: Primary AI Acceleration (x = 20) -->
   <g transform="translate(20, 46)">
     <rect width="176" height="84" class="hud-card" stroke="#00f2fe" stroke-opacity="0.6" />
     <path d="M 4 8 L 4 4 L 8 4" class="hud-bracket" stroke="#00f2fe" />
     <path d="M 172 8 L 172 4 L 168 4" class="hud-bracket" stroke="#00f2fe" />
     
-    <text x="12" y="20" class="hud-sub" fill="#00f2fe">SYNAPTIC THROUGHPUT</text>
+    <text x="12" y="20" class="hud-sub" fill="#00f2fe">PRIMARY AI RUNTIME</text>
     <text x="12" y="38" class="hud-val">CUDA 12.x • TensorRT</text>
-    <text x="12" y="54" class="hud-detail">60+ FPS • Tensor Cores</text>
+    <text x="12" y="54" class="hud-detail">PyTorch 2.x • Tensor Cores</text>
     
     <!-- Mini Metric Bars -->
     <g transform="translate(12, 66)">
@@ -81,29 +81,29 @@
     </g>
   </g>
 
-  <!-- Metric 2: Cognitive Synapse Loop (x = 212) -->
+  <!-- Metric 2: Agentic Cognition (x = 212) -->
   <g transform="translate(212, 46)">
     <rect width="176" height="84" class="hud-card" stroke="#c084fc" stroke-opacity="0.6" />
     <path d="M 4 8 L 4 4 L 8 4" class="hud-bracket" stroke="#c084fc" />
     <path d="M 172 8 L 172 4 L 168 4" class="hud-bracket" stroke="#c084fc" />
     
-    <text x="12" y="20" class="hud-sub" fill="#c084fc">COGNITIVE SYNAPSE</text>
+    <text x="12" y="20" class="hud-sub" fill="#c084fc">AGENTIC COGNITION</text>
     <text x="12" y="38" class="hud-val">ReAct &amp; Reflexion</text>
-    <text x="12" y="54" class="hud-detail">Closed-Loop EEG Wave</text>
+    <text x="12" y="54" class="hud-detail">Multi-Step Reasoning</text>
 
     <!-- Firing Neural EEG Waveform -->
     <path d="M 12 70 L 28 70 L 36 60 L 44 78 L 52 62 L 60 74 L 72 70 L 152 70" fill="none" stroke="#c084fc" stroke-width="1.5" class="wave-live" />
   </g>
 
-  <!-- Metric 3: Latent Space Vector Density (x = 404) -->
+  <!-- Metric 3: Knowledge Engine (x = 404) -->
   <g transform="translate(404, 46)">
     <rect width="176" height="84" class="hud-card" stroke="#38bdf8" stroke-opacity="0.6" />
     <path d="M 4 8 L 4 4 L 8 4" class="hud-bracket" stroke="#38bdf8" />
     <path d="M 172 8 L 172 4 L 168 4" class="hud-bracket" stroke="#38bdf8" />
     
-    <text x="12" y="20" class="hud-sub" fill="#38bdf8">LATENT SPACE DENSITY</text>
+    <text x="12" y="20" class="hud-sub" fill="#38bdf8">KNOWLEDGE ENGINE</text>
     <text x="12" y="38" class="hud-val">Atlas Vector RAG</text>
-    <text x="12" y="54" class="hud-detail">cos(θ) = 0.984 (Top-K)</text>
+    <text x="12" y="54" class="hud-detail">KoRC Semantic Index</text>
 
     <!-- Progress Meter -->
     <g transform="translate(12, 66)">
@@ -118,9 +118,9 @@
     <path d="M 4 8 L 4 4 L 8 4" class="hud-bracket" stroke="#34d399" />
     <path d="M 180 8 L 180 4 L 176 4" class="hud-bracket" stroke="#34d399" />
     
-    <text x="12" y="20" class="hud-sub" fill="#34d399">SYNAPTIC QUANTIZATION</text>
-    <text x="12" y="38" class="hud-val">1-Bit Ternary Core</text>
-    <text x="12" y="54" class="hud-detail">W ∈ {-1, +1} • 4.8x Boost</text>
+    <text x="12" y="20" class="hud-sub" fill="#34d399">MODEL OPTIMIZATION</text>
+    <text x="12" y="38" class="hud-val">1-Bit-Per-Weight</text>
+    <text x="12" y="54" class="hud-detail">Wide ResNets for Edge</text>
 
     <!-- Acceleration Gauge -->
     <g transform="translate(12, 66)">

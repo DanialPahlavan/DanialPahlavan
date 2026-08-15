@@ -179,14 +179,14 @@
 
 <br/>
 
-| Telemetry Dimension | Operational Benchmark & Systems Parameters |
+| Telemetry Dimension | Operational Blueprint & AI Systems Parameters |
 | :--- | :--- |
 | **Compute & Acceleration Infrastructure** | Dedicated Linux workstation nodes • CUDA 12.x runtime • PyTorch 2.x • TensorRT / ONNX graph compiler acceleration |
 | **Autonomous Agent Orchestration** | Closed-loop `ReAct`, `Reflexion` and Plan-and-Solve reasoning engines • Dynamic tool binding • Multi-agent consensus loops |
-| **Computer Vision Pipelines** | High-throughput `YOLO` (v5/v8/v11) inference • `GAN` colorization / restoration (`DeOldify`, `VCGAN`) at 60+ FPS |
+| **Computer Vision & Restoration** | Real-time `YOLO` (v5/v8/v11) object detection • `GAN` colorization / restoration (`DeOldify`, `VCGAN`) |
 | **RAG & Knowledge Retrieval** | Dense semantic indexing • `Atlas` few-shot models • Knowledge-oriented reading comprehension (`KoRC`) |
 | **Extreme Neural Quantization** | Low-bit weight representation (`1-bit-per-weight`) • Sub-8-bit matrix arithmetic for low-power edge deployments |
-| **Asynchronous Bot & App Frameworks** | Production async Telegram bot architectures (`aiogram`) • High-concurrency event loops • Desktop GUIs (`Tkinter`) |
+| **Data Science & ML Ecosystem** | High-dimensional tensor modeling • `Scikit-Learn` • `NumPy` • `Pandas` • `PyTorch` |
 
 </details>
 

@@ -26,14 +26,6 @@
       </feMerge>
     </filter>
 
-    <filter id="starGlint" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-
     <style>
       @keyframes vertexPulse {
         0%, 100% { r: 4.5; opacity: 0.85; filter: drop-shadow(0 0 2px #00f2fe); }
@@ -68,7 +60,7 @@
   <!-- Card Background -->
   <rect width="600" height="340" class="radar-bg" />
 
-  <!-- Background Synaptic Constellation Mesh (Inspired by Image 5) -->
+  <!-- Background Synaptic Constellation Mesh -->
   <g stroke="#38bdf8" stroke-width="0.5" stroke-opacity="0.15" fill="#38bdf8">
     <line x1="80" y1="90" x2="140" y2="60" />
     <line x1="140" y1="60" x2="220" y2="80" />
@@ -82,7 +74,6 @@
     <line x1="500" y1="160" x2="530" y2="240" />
     <line x1="530" y1="240" x2="450" y2="280" />
 
-    <!-- Constellation Star Nodes -->
     <circle cx="80" cy="90" r="1.8" class="star-node" fill="#00f2fe" />
     <circle cx="140" cy="60" r="1.8" class="star-node" fill="#38bdf8" />
     <circle cx="100" cy="160" r="1.8" class="star-node" fill="#c084fc" />
@@ -101,10 +92,10 @@
   <line x1="0" y1="32" x2="600" y2="32" stroke="#30363d" stroke-width="1" />
   
   <circle cx="18" cy="16" r="4" fill="#00f2fe" filter="url(#radarGlow)" />
-  <text x="32" y="20" class="radar-title">NEURAL CONSTELLATION POLAR MAP &amp; CONVERGENCE</text>
-  <text x="575" y="20" text-anchor="end" class="font-mono" font-size="10.5" fill="#38bdf8" font-weight="bold">[97.8% SYNAPSE FIT]</text>
+  <text x="32" y="20" class="radar-title">AI RESEARCH &amp; SYSTEMS ARCHITECTURE RADAR</text>
+  <text x="575" y="20" text-anchor="end" class="font-mono" font-size="10.5" fill="#38bdf8" font-weight="bold">[CORE AI COMPETENCIES]</text>
 
-  <!-- Center (300, 180) Concentric Hexagons (Activation Thresholds) -->
+  <!-- Center (300, 180) Concentric Hexagons -->
   <!-- 25% Ring (R=25) -->
   <polygon points="300,155 321.65,167.5 321.65,192.5 300,205 278.35,192.5 278.35,167.5" class="radar-grid" />
   <!-- 50% Ring (R=50) -->
@@ -125,10 +116,10 @@
   <!-- Center Core Neuron -->
   <circle cx="300" cy="180" r="5.5" fill="#00f2fe" class="core-node" />
 
-  <!-- Radar Filled Polygon (Scores: 99%, 98%, 96%, 95%, 97%, 92%) -->
+  <!-- Radar Filled Polygon -->
   <polygon points="300,81 384.9,131 383.1,228 300,275 216.0,228.5 220.3,134" class="radar-area" />
 
-  <!-- Firing Synapse Vertices Circles -->
+  <!-- Vertices Circles -->
   <circle cx="300" cy="81" r="4.5" class="radar-point" fill="#00f2fe" />
   <circle cx="384.9" cy="131" r="4.5" class="radar-point" fill="#38bdf8" />
   <circle cx="383.1" cy="228" r="4.5" class="radar-point" fill="#c084fc" />
@@ -136,28 +127,28 @@
   <circle cx="216.0" cy="228.5" r="4.5" class="radar-point" fill="#38bdf8" />
   <circle cx="220.3" cy="134" r="4.5" class="radar-point" fill="#00f2fe" />
 
-  <!-- Axis Labels & Scores -->
+  <!-- Axis Labels & Real Repository Pillars -->
   <!-- Top: Deep Learning & CV -->
-  <text x="300" y="56" text-anchor="middle" class="radar-label">Visual ConvNets &amp; Computer Vision</text>
-  <text x="300" y="70" text-anchor="middle" class="radar-score" fill="#00f2fe">99% • Top-1 / GANs</text>
+  <text x="300" y="56" text-anchor="middle" class="radar-label">Computer Vision &amp; Deep Learning</text>
+  <text x="300" y="70" text-anchor="middle" class="radar-score" fill="#00f2fe">VCGAN • DeOldify • YOLO</text>
 
   <!-- Top Right: Autonomous Agents -->
-  <text x="404" y="125" class="radar-label">Autonomous Agent Synapses</text>
-  <text x="404" y="138" class="radar-score" fill="#38bdf8">98% • ReAct / Reflexion</text>
+  <text x="404" y="125" class="radar-label">Autonomous AI Agents</text>
+  <text x="404" y="138" class="radar-score" fill="#38bdf8">ReAct &amp; Reflexion Loops</text>
 
   <!-- Bottom Right: RAG & NLP -->
-  <text x="404" y="231" class="radar-label">Latent RAG &amp; Dense Indexing</text>
-  <text x="404" y="244" class="radar-score" fill="#c084fc">96% • Top-K Atlas / KoRC</text>
+  <text x="404" y="231" class="radar-label">Dense RAG &amp; NLP Models</text>
+  <text x="404" y="244" class="radar-score" fill="#c084fc">Atlas • KoRC • Retrieval</text>
 
   <!-- Bottom: 1-Bit Quantization -->
-  <text x="300" y="301" text-anchor="middle" class="radar-label">1-Bit Synaptic Quantization</text>
-  <text x="300" y="314" text-anchor="middle" class="radar-score" fill="#34d399">95% • BitNet 1.58b (4.8x)</text>
+  <text x="300" y="301" text-anchor="middle" class="radar-label">1-Bit Neural Quantization</text>
+  <text x="300" y="314" text-anchor="middle" class="radar-score" fill="#34d399">Wide ResNets • Edge Deploy</text>
 
-  <!-- Bottom Left: Async Python Systems -->
-  <text x="196" y="231" text-anchor="end" class="radar-label">Async Event Loop Runtimes</text>
-  <text x="196" y="244" text-anchor="end" class="radar-score" fill="#38bdf8">97% • aiogram / Events</text>
+  <!-- Bottom Left: Data Science & ML -->
+  <text x="196" y="231" text-anchor="end" class="radar-label">Data Science &amp; ML Ecosystem</text>
+  <text x="196" y="244" text-anchor="end" class="radar-score" fill="#38bdf8">Scikit-Learn • PyTorch</text>
 
-  <!-- Top Left: Systems & C# / C++ -->
-  <text x="196" y="125" text-anchor="end" class="radar-label">Low-Level Systems &amp; C#/C++</text>
-  <text x="196" y="138" text-anchor="end" class="radar-score" fill="#00f2fe">92% • Binary / Tooling</text>
+  <!-- Top Left: AI Runtime & Compute -->
+  <text x="196" y="125" text-anchor="end" class="radar-label">GPU Runtime &amp; Acceleration</text>
+  <text x="196" y="138" text-anchor="end" class="radar-score" fill="#00f2fe">CUDA 12.x • TensorRT</text>
 </svg>

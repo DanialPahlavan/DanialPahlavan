@@ -59,15 +59,15 @@
   <circle cx="56" cy="17" r="5.5" fill="#27c93f" />
 
   <!-- Title -->
-  <text x="425" y="22" text-anchor="middle" class="art-title">danial@ai-lab: ~/neural_zoo/featured_models.json --format geek</text>
-  <text x="825" y="22" text-anchor="end" class="font-mono" font-size="10" fill="#38bdf8" font-weight="600">[PUBLIC REPOS: 74+]</text>
+  <text x="425" y="22" text-anchor="middle" class="art-title">danial@ai-lab: ~/ai_models/featured_ai_artifacts.json --ai-ecosystem</text>
+  <text x="825" y="22" text-anchor="end" class="font-mono" font-size="10" fill="#38bdf8" font-weight="600">[AI MODEL ZOO]</text>
 
   <!-- Content Body -->
   <g transform="translate(24, 48)">
     
     <!-- Command line -->
     <text y="14" class="font-mono" font-size="12">
-      <tspan fill="#8b949e">danial@ai-lab:~$</tspan> <tspan class="prompt-cmd">git neural-registry --list-featured --verified-architecture</tspan>
+      <tspan fill="#8b949e">danial@ai-lab:~$</tspan> <tspan class="prompt-cmd">git ai-registry --list-featured --verified-neural-models</tspan>
     </text>
 
     <!-- Artifact 1: Deep Learning & Vision (y = 26) -->
@@ -76,14 +76,14 @@
       <path d="M 4 10 L 4 4 L 10 4" class="hud-bracket" stroke="#00f2fe" />
       <path d="M 798 10 L 798 4 L 792 4" class="hud-bracket" stroke="#00f2fe" />
       <circle cx="16" cy="22" r="3.5" fill="#00f2fe" filter="url(#artGlow)" />
-      <text x="28" y="22" class="repo-title" fill="#00f2fe">MODEL 01: COMPUTER VISION &amp; GAN RESTORATION</text>
-      <text x="786" y="22" text-anchor="end" class="repo-tag" fill="#00f2fe">[60+ FPS INFERENCE]</text>
+      <text x="28" y="22" class="repo-title" fill="#00f2fe">01. COMPUTER VISION &amp; NEURAL RESTORATION</text>
+      <text x="786" y="22" text-anchor="end" class="repo-tag" fill="#00f2fe">[IEEE TMM / GANS]</text>
       
       <text x="28" y="44" class="repo-desc">
-        <tspan font-weight="600" fill="#f1f5f9">Featured Repositories:</tspan> <tspan fill="#38bdf8" font-family="Fira Code" font-weight="bold">VCGAN</tspan> • <tspan fill="#38bdf8" font-family="Fira Code" font-weight="bold">DeOldify</tspan> • <tspan fill="#38bdf8" font-family="Fira Code" font-weight="bold">YOLO-RealTime-Detection</tspan>
+        <tspan font-weight="600" fill="#f1f5f9">Featured Repositories:</tspan> <tspan fill="#38bdf8" font-family="Fira Code" font-weight="bold">VCGAN</tspan> • <tspan fill="#38bdf8" font-family="Fira Code" font-weight="bold">DeOldify</tspan> • <tspan fill="#38bdf8" font-family="Fira Code" font-weight="bold">yolo-playground</tspan> • <tspan fill="#38bdf8" font-family="Fira Code" font-weight="bold">Dental-X-Ray</tspan>
       </text>
       <text x="28" y="60" class="repo-stack">
-        Architecture: PyTorch ConvNets • GAN Generator/Discriminator • YOLOv8/v11 • OpenCV Tensor Pipeline
+        Architecture: PyTorch ConvNets • GAN Colorization • YOLO Real-Time Detection • Medical Imaging
       </text>
     </g>
 
@@ -93,48 +93,48 @@
       <path d="M 4 10 L 4 4 L 10 4" class="hud-bracket" stroke="#c084fc" />
       <path d="M 798 10 L 798 4 L 792 4" class="hud-bracket" stroke="#c084fc" />
       <circle cx="16" cy="22" r="3.5" fill="#c084fc" filter="url(#artGlow)" />
-      <text x="28" y="22" class="repo-title" fill="#c084fc">MODEL 02: AUTONOMOUS AGENTS &amp; DENSE LATENT RAG</text>
-      <text x="786" y="22" text-anchor="end" class="repo-tag" fill="#c084fc">[98.4% COSINE HIT]</text>
+      <text x="28" y="22" class="repo-title" fill="#c084fc">02. RETRIEVAL-AUGMENTED GENERATION &amp; DENSE NLP</text>
+      <text x="786" y="22" text-anchor="end" class="repo-tag" fill="#c084fc">[ARXIV:2208.03299]</text>
       
       <text x="28" y="44" class="repo-desc">
-        <tspan font-weight="600" fill="#f1f5f9">Featured Repositories:</tspan> <tspan fill="#c084fc" font-family="Fira Code" font-weight="bold">KoRC</tspan> • <tspan fill="#c084fc" font-family="Fira Code" font-weight="bold">Atlas</tspan> • <tspan fill="#c084fc" font-family="Fira Code" font-weight="bold">Agentic-Reasoning-Workflows</tspan>
+        <tspan font-weight="600" fill="#f1f5f9">Featured Repositories:</tspan> <tspan fill="#c084fc" font-family="Fira Code" font-weight="bold">RAG</tspan> • <tspan fill="#c084fc" font-family="Fira Code" font-weight="bold">atlas</tspan> • <tspan fill="#c084fc" font-family="Fira Code" font-weight="bold">KoRC</tspan> • <tspan fill="#c084fc" font-family="Fira Code" font-weight="bold">PerDoc-mining-</tspan>
       </text>
       <text x="28" y="60" class="repo-stack">
-        Architecture: ReAct/Reflexion Attention Loops • Dense Vector Latent Indexing • 1-Bit BitNet Quantization
+        Architecture: Retrieval Augmented Language Models • Knowledge Reading Comprehension • Dense Vectors
       </text>
     </g>
 
-    <!-- Artifact 3: Async Bot & Application Systems (y = 182) -->
+    <!-- Artifact 3: Autonomous Agents (y = 182) -->
     <g transform="translate(0, 182)">
-      <rect width="802" height="70" class="repo-card" stroke="#f59e0b" stroke-opacity="0.6" />
-      <path d="M 4 10 L 4 4 L 10 4" class="hud-bracket" stroke="#f59e0b" />
-      <path d="M 798 10 L 798 4 L 792 4" class="hud-bracket" stroke="#f59e0b" />
-      <circle cx="16" cy="22" r="3.5" fill="#f59e0b" filter="url(#artGlow)" />
-      <text x="28" y="22" class="repo-title" fill="#f59e0b">SYSTEM 03: ASYNC BOT ENGINES &amp; DESKTOP RUNTIMES</text>
-      <text x="786" y="22" text-anchor="end" class="repo-tag" fill="#f59e0b">[HIGH-EVENT DISPATCH]</text>
+      <rect width="802" height="70" class="repo-card" stroke="#38bdf8" stroke-opacity="0.6" />
+      <path d="M 4 10 L 4 4 L 10 4" class="hud-bracket" stroke="#38bdf8" />
+      <path d="M 798 10 L 798 4 L 792 4" class="hud-bracket" stroke="#38bdf8" />
+      <circle cx="16" cy="22" r="3.5" fill="#38bdf8" filter="url(#artGlow)" />
+      <text x="28" y="22" class="repo-title" fill="#38bdf8">03. AUTONOMOUS AI AGENTS &amp; REASONING WORKFLOWS</text>
+      <text x="786" y="22" text-anchor="end" class="repo-tag" fill="#38bdf8">[AGENTIC LOOPS]</text>
       
       <text x="28" y="44" class="repo-desc">
-        <tspan font-weight="600" fill="#f1f5f9">Featured Repositories:</tspan> <tspan fill="#f59e0b" font-family="Fira Code" font-weight="bold">aiogram-bots</tspan> • <tspan fill="#f59e0b" font-family="Fira Code" font-weight="bold">Tkinter-GUI</tspan> • <tspan fill="#f59e0b" font-family="Fira Code" font-weight="bold">PowerToys-Customizations</tspan>
+        <tspan font-weight="600" fill="#f1f5f9">Core Implementations:</tspan> <tspan fill="#38bdf8" font-family="Fira Code" font-weight="bold">ReAct Reasoning</tspan> • <tspan fill="#38bdf8" font-family="Fira Code" font-weight="bold">Reflexion Engine</tspan> • <tspan fill="#38bdf8" font-family="Fira Code" font-weight="bold">Tool Orchestration</tspan>
       </text>
       <text x="28" y="60" class="repo-stack">
-        Architecture: Python AsyncIO • Telegram Bot API • High-Concurrency Loops • Tkinter • C# Unity Engine
+        Architecture: Closed-Loop Multi-Step Planning • Dynamic Tool Binding • Multi-Agent Consensus Loops
       </text>
     </g>
 
-    <!-- Artifact 4: Localization & Game Tooling (y = 260) -->
+    <!-- Artifact 4: Quantization & Efficiency (y = 260) -->
     <g transform="translate(0, 260)">
       <rect width="802" height="70" class="repo-card" stroke="#34d399" stroke-opacity="0.6" />
       <path d="M 4 10 L 4 4 L 10 4" class="hud-bracket" stroke="#34d399" />
       <path d="M 798 10 L 798 4 L 792 4" class="hud-bracket" stroke="#34d399" />
       <circle cx="16" cy="22" r="3.5" fill="#34d399" filter="url(#artGlow)" />
-      <text x="28" y="22" class="repo-title" fill="#34d399">SYSTEM 04: LOCALIZATION ENGINES &amp; BINARY PARSERS</text>
-      <text x="786" y="22" text-anchor="end" class="repo-tag" fill="#34d399">[BINARY PARSER]</text>
+      <text x="28" y="22" class="repo-title" fill="#34d399">04. EXTREME NEURAL QUANTIZATION &amp; COMPRESSION</text>
+      <text x="786" y="22" text-anchor="end" class="repo-tag" fill="#34d399">[EDGE DEPLOYMENT]</text>
       
       <text x="28" y="44" class="repo-desc">
-        <tspan font-weight="600" fill="#f1f5f9">Featured Repositories:</tspan> <tspan fill="#34d399" font-family="Fira Code" font-weight="bold">Kenshi-farsi</tspan> • <tspan fill="#34d399" font-family="Fira Code" font-weight="bold">DarkestDungeon-2---Persian</tspan> • <tspan fill="#34d399" font-family="Fira Code" font-weight="bold">Project-Zomboid-Persian</tspan>
+        <tspan font-weight="600" fill="#f1f5f9">Featured Repositories:</tspan> <tspan fill="#34d399" font-family="Fira Code" font-weight="bold">1-bit-per-weight</tspan> • <tspan fill="#34d399" font-family="Fira Code" font-weight="bold">efficient-mixtures</tspan> • <tspan fill="#34d399" font-family="Fira Code" font-weight="bold">DeepSMOTES</tspan>
       </text>
       <text x="28" y="60" class="repo-stack">
-        Architecture: C# • Python • Binary Asset Parsing • Custom Font Engine • Localization Runtimes
+        Architecture: Wide Residual Networks • Single-Bit Weights • Variational Inference • Imbalanced Data
       </text>
     </g>
 
@@ -142,7 +142,7 @@
     <g transform="translate(0, 340)">
       <rect width="802" height="28" fill="#161b22" stroke="#30363d" stroke-width="1" rx="5" />
       <text x="12" y="18" class="font-mono" font-size="11.5" fill="#8b949e">
-        danial@ai-lab:~$ <tspan fill="#00f2fe">echo $TOTAL_PUBLIC_REPOS</tspan> <tspan fill="#38bdf8" font-weight="bold">74+ Verified Repositories Active</tspan>
+        danial@ai-lab:~$ <tspan fill="#00f2fe">echo $VERIFIED_AI_REPOSITORIES</tspan> <tspan fill="#38bdf8" font-weight="bold">74 Public Repositories Grounded in AI &amp; Systems</tspan>
         <tspan class="cursor-blink" dx="6">█</tspan>
       </text>
     </g>

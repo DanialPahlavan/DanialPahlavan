@@ -69,50 +69,50 @@
   <circle cx="56" cy="18" r="5.5" fill="#27c93f" />
 
   <!-- Window Title -->
-  <text x="400" y="23" text-anchor="middle" class="term-title">danial@cluster-01: ~/neural_systems/agent_inference.py --cuda</text>
-  <text x="780" y="23" text-anchor="end" class="font-mono" font-size="10" fill="#38bdf8" font-weight="600">[GPU 0 • CUDA 12.x]</text>
+  <text x="400" y="23" text-anchor="middle" class="term-title">danial@cluster-01: ~/ai_systems/agent_inference.py --cuda</text>
+  <text x="780" y="23" text-anchor="end" class="font-mono" font-size="10" fill="#38bdf8" font-weight="600">[CUDA 12.x • GPU NODE]</text>
 
   <!-- Terminal Output Body -->
   <g transform="translate(24, 66)">
     <!-- Line 1: Command Invocation -->
     <g class="line-1">
       <text y="0" class="term-text">
-        <tspan class="prompt-user">danial</tspan><tspan class="prompt-at">@</tspan><tspan class="prompt-user">cluster-01</tspan><tspan class="prompt-at">:</tspan><tspan class="prompt-path">~/neural_systems</tspan><tspan class="prompt-cmd">$ python3 -m torch.distributed.run --nproc_per_node=4 agent_brain.py</tspan>
+        <tspan class="prompt-user">danial</tspan><tspan class="prompt-at">@</tspan><tspan class="prompt-user">cluster-01</tspan><tspan class="prompt-at">:</tspan><tspan class="prompt-path">~/ai_systems</tspan><tspan class="prompt-cmd">$ python3 -m torch.distributed.run --nproc_per_node=4 agent_brain.py</tspan>
       </text>
     </g>
 
     <!-- Line 2: VRAM Allocation & Tensor Cores -->
     <g class="line-2" transform="translate(0, 34)">
       <text y="0" class="term-text">
-        <tspan class="log-time">[21:26:01.102] </tspan><tspan class="log-torch">[TORCH]</tspan> <tspan class="log-label">Allocated VRAM: 24.2 GB / 32.0 GB • Tensor Cores: </tspan><tspan class="log-highlight">ACTIVE (FP16 / INT8)</tspan>
+        <tspan class="log-time">[SESSION] </tspan><tspan class="log-torch">[TORCH]</tspan> <tspan class="log-label">Initialized PyTorch 2.x Distributed Engine • Tensor Cores: </tspan><tspan class="log-highlight">ACTIVE (FP16 / INT8)</tspan>
       </text>
     </g>
 
     <!-- Line 3: Latent Vector Store -->
     <g class="line-3" transform="translate(0, 68)">
       <text y="0" class="term-text">
-        <tspan class="log-time">[21:26:01.428] </tspan><tspan class="log-latent">[LATENT]</tspan> <tspan class="log-label">Dense Vector Index Loaded: 1.2M Embeddings • cos(θ) = </tspan><tspan class="log-highlight">0.984 (Top-K)</tspan>
+        <tspan class="log-time">[SESSION] </tspan><tspan class="log-latent">[LATENT]</tspan> <tspan class="log-label">Dense Vector Knowledge Index Loaded • Models: </tspan><tspan class="log-highlight">Atlas &amp; KoRC Embeddings</tspan>
       </text>
     </g>
 
     <!-- Line 4: Vision ConvNet Forward Pass -->
     <g class="line-4" transform="translate(0, 102)">
       <text y="0" class="term-text">
-        <tspan class="log-time">[21:26:01.785] </tspan><tspan class="log-vision">[VISION]</tspan> <tspan class="log-label">YOLOv11 &amp; GAN Forward Pass: </tspan><tspan class="log-highlight">60+ FPS</tspan> <tspan class="log-label">• Validation Loss ℒ_val = 0.0142</tspan>
+        <tspan class="log-time">[SESSION] </tspan><tspan class="log-vision">[VISION]</tspan> <tspan class="log-label">Computer Vision Pipeline Active • Architectures: </tspan><tspan class="log-highlight">VCGAN, DeOldify &amp; YOLO</tspan>
       </text>
     </g>
 
-    <!-- Line 5: 1-Bit BitNet Quantization -->
-    <g class="line-5" transform="translate(0, 136)">
+    <!-- Line 5: 1-Bit Quantization -->
+    <g transform="translate(0, 136)">
       <text y="0" class="term-text">
-        <tspan class="log-time">[21:26:02.110] </tspan><tspan class="log-quant">[QUANT]</tspan> <tspan class="log-label">BitNet 1.58b Synaptic Quantization: </tspan><tspan class="log-highlight">4.8x Memory Acceleration</tspan> <tspan class="log-label">[ENABLED]</tspan>
+        <tspan class="log-time">[SESSION] </tspan><tspan class="log-quant">[QUANT]</tspan> <tspan class="log-label">Low-Bit Neural Representation: </tspan><tspan class="log-highlight">1-Bit-Per-Weight (Wide ResNets)</tspan> <tspan class="log-label">[ENABLED]</tspan>
       </text>
     </g>
 
     <!-- Line 6: Multi-Step Reasoning Agent Loop -->
     <g class="line-6" transform="translate(0, 170)">
       <text y="0" class="term-text">
-        <tspan class="log-time">[21:26:02.435] </tspan><tspan class="log-agent">[AGENT]</tspan> <tspan class="log-label">Closed-Loop ReAct Reasoning Synapses: </tspan><tspan class="log-active">ALL NODES FIRING</tspan>
+        <tspan class="log-time">[SESSION] </tspan><tspan class="log-agent">[AGENT]</tspan> <tspan class="log-label">Closed-Loop ReAct Reasoning Engine: </tspan><tspan class="log-active">ALL SYSTEMS OPERATIONAL</tspan>
         <tspan class="cursor" dx="6">█</tspan>
       </text>
     </g>
