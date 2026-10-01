@@ -14,6 +14,11 @@
 
   <!-- Academic, Professional & Social Credentials -->
   <p>
+    <a href="https://github.com/Danyp-Lab" target="_blank">
+      <img src="https://img.shields.io/badge/Danyp--Lab-Applied_R%26D_Lab-00f2fe?style=flat-square&logo=github&logoColor=black" alt="Danyp-Lab R&D Hub" />
+    </a>
+    &nbsp;
+  <p>
     <a href="https://scholar.google.com" target="_blank">
       <img src="https://img.shields.io/badge/Google_Scholar-Publications-4285F4?style=flat-square&logo=google-scholar&logoColor=white" alt="Google Scholar" />
     </a>
