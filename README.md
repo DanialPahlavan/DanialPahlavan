@@ -143,10 +143,10 @@
   <table border="0" align="center" style="border-collapse: collapse; width: 95%;">
     <tr align="center">
       <td width="33.33%" align="center" style="padding: 4px;">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DanialPahlavan&theme=tokyonight" height="135" alt="Top Languages by Commit" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Danyp-Lab&theme=tokyonight" height="135" alt="Top Languages by Commit (Danyp-Lab Ecosystem)" />
       </td>
       <td width="33.33%" align="center" style="padding: 4px;">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DanialPahlavan&theme=tokyonight" height="135" alt="Repositories per Language" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Danyp-Lab&theme=tokyonight" height="135" alt="Repositories per Language (Danyp-Lab Ecosystem)" />
       </td>
       <td width="33.33%" align="center" style="padding: 4px;">
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DanialPahlavan&theme=tokyonight" height="135" alt="Productive Coding Time" />
