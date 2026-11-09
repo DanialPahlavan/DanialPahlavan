@@ -130,7 +130,11 @@
         </picture>
       </td>
       <td width="50%" align="center" style="padding: 4px; vertical-align: middle;">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=DanialPahlavan&theme=tokyo-night&hide_border=true&area=true&bg_color=0d1117&color=00f2fe&line=38bdf8&point=f59e0b&custom_title=Danial's%20Engineering%20Activity%20Telemetry" width="100%" alt="Danial's Engineering Activity Telemetry Graph" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-anuraghazra1.vercel.app/api?username=DanialPahlavan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f2fe&icon_color=38bdf8&text_color=e2e8f0" />
+          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-anuraghazra1.vercel.app/api?username=DanialPahlavan&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=0369a1&icon_color=0969da&text_color=0f172a" />
+          <img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=DanialPahlavan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f2fe&icon_color=38bdf8&text_color=e2e8f0" width="100%" alt="Danial's Engineering Activity Telemetry" />
+        </picture>
       </td>
     </tr>
   </table>
