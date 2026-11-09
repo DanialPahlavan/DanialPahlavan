@@ -2,9 +2,9 @@
 
   <!-- Adaptive Cyberpunk / Royal Wave Header Banner -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:0c2d48,100:0284c7&height=140&section=header&text=Danial%20Pahlavan&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Senior%20AI%20Systems%20Architect%20%7C%20PhD%20Researcher%20in%20AI&descSize=16&descAlignY=62&descAlign=50" />
-    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e40af,100:0369a1&height=140&section=header&text=Danial%20Pahlavan&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Senior%20AI%20Systems%20Architect%20%7C%20PhD%20Researcher%20in%20AI&descSize=16&descAlignY=62&descAlign=50" />
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:0c2d48,100:0284c7&height=140&section=header&text=Danial%20Pahlavan&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Senior%20AI%20Systems%20Architect%20%7C%20PhD%20Researcher%20in%20AI&descSize=16&descAlignY=62&descAlign=50" width="100%" alt="Danial Pahlavan - Senior AI Systems Architect" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117%2C45:0c2d48%2C100:0284c7&height=140&section=header&text=Danial%20Pahlavan&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Senior%20AI%20Systems%20Architect%20%7C%20PhD%20Researcher%20in%20AI&descSize=16&descAlignY=62&descAlign=50" />
+    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a%2C50:1e40af%2C100:0369a1&height=140&section=header&text=Danial%20Pahlavan&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Senior%20AI%20Systems%20Architect%20%7C%20PhD%20Researcher%20in%20AI&descSize=16&descAlignY=62&descAlign=50" />
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:0c2d48,100:0284c7&height=140&section=header&text=Danial%20Pahlavan&fontSize=42&fontColor=ffffff&desc=Senior%20AI%20Systems%20Architect%20%7C%20PhD%20Researcher%20in%20AI&descSize=16&descAlignY=62&descAlign=50" width="100%" alt="Danial Pahlavan - Senior AI Systems Architect" />
   </picture>
 
   <br/>
@@ -239,8 +239,8 @@ If you find my open-source AI implementations, neural models, and development to
 <!-- Matching Adaptive Wave Footer Divider -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:0c2d48,100:0284c7&height=80&section=footer" />
-    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e40af,100:0369a1&height=80&section=footer" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117%2C45:0c2d48%2C100:0284c7&height=80&section=footer" />
+    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a%2C50:1e40af%2C100:0369a1&height=80&section=footer" />
     <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:0c2d48,100:0284c7&height=80&section=footer" width="100%" alt="Footer Wave Divider" />
   </picture>
   <br/>
