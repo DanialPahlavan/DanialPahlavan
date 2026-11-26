@@ -60,6 +60,9 @@
 
 ---
 
+**Senior AI Systems Architect (10+ Years Experience) • PhD Researcher in Artificial Intelligence**  
+Bridging academic AI research with production-grade systems engineering — specializing in **Autonomous Agents** (`ReAct`, `Reflexion`), **Computer Vision** (`YOLO`, `GANs`), **Dense RAG**, and **1-Bit Neural Quantization**.
+
 <details>
 <summary><strong>🧠 Executive Overview & Core AI Research Pillars</strong></summary>
 <br/>
@@ -72,14 +75,18 @@
 
 ---
 
-### Technical Proficiencies
+## Technical Proficiencies
 
 <div align="center">
 
-  <!-- High-Resolution Graphic SkillIcons Dark Strip -->
+  <!-- Adaptive Graphic SkillIcons Strip -->
   <p>
     <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,python,cs,cpp,ts,js,linux,docker,git,bash,postgres&theme=dark" alt="Technical Stack Icons" />
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=pytorch,tensorflow,python,cs,cpp,ts,js,linux,docker,git,bash,postgres&theme=dark" />
+        <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=pytorch,tensorflow,python,cs,cpp,ts,js,linux,docker,git,bash,postgres&theme=light" />
+        <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,python,cs,cpp,ts,js,linux,docker,git,bash,postgres&theme=dark" alt="Technical Stack Icons" />
+      </picture>
     </a>
   </p>
 
@@ -90,7 +97,7 @@
 
 ---
 
-### Dynamic Activity & Engineering Telemetry
+## Dynamic Activity & Engineering Telemetry
 
 <div align="center">
 
@@ -105,7 +112,7 @@
     </a>
     &nbsp;
     <a href="https://github.com/DanialPahlavan?tab=repositories">
-      <img src="https://img.shields.io/badge/PUBLIC_REPOS-74+-00f2fe?style=flat-square&logo=github&logoColor=white" alt="Public Repositories" />
+      <img src="https://img.shields.io/badge/REPOSITORIES-74+-00f2fe?style=flat-square&logo=github&logoColor=white" alt="Repositories" />
     </a>
     &nbsp;
     <a href="https://github.com/DanialPahlavan">
@@ -141,23 +148,43 @@
   <table border="0" align="center">
     <tr align="center">
       <td width="50%" align="center">
-        <img src="https://streak-stats.demolab.com/?user=DanialPahlavan&theme=tokyonight&hide_border=true&background=0d1117&ring=00f2fe&fire=38bdf8&currStreakLabel=00f2fe&dates=e2e8f0" height="135" alt="Engineering Velocity Streak" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=DanialPahlavan&theme=tokyonight&hide_border=true&background=0d1117&ring=00f2fe&fire=38bdf8&currStreakLabel=00f2fe&dates=e2e8f0" />
+          <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=DanialPahlavan&theme=default&hide_border=true&background=ffffff&ring=0369a1&fire=0284c7&currStreakLabel=0369a1&dates=0f172a" />
+          <img src="https://streak-stats.demolab.com/?user=DanialPahlavan&theme=tokyonight&hide_border=true&background=0d1117&ring=00f2fe&fire=38bdf8&currStreakLabel=00f2fe&dates=e2e8f0" height="135" alt="Engineering Velocity Streak" />
+        </picture>
       </td>
       <td width="50%" align="center">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DanialPahlavan&theme=tokyonight" height="135" alt="GitHub Profile Summary" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DanialPahlavan&theme=tokyonight" />
+          <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DanialPahlavan&theme=default" />
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DanialPahlavan&theme=tokyonight" height="135" alt="GitHub Profile Summary" />
+        </picture>
       </td>
     </tr>
   </table>
   <table border="0" align="center">
     <tr align="center">
       <td width="33.33%" align="center">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Danyp-Lab&theme=tokyonight" width="100%" alt="Top Languages by Commit (Danyp-Lab Ecosystem)" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Danyp-Lab&theme=tokyonight" />
+          <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Danyp-Lab&theme=default" />
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Danyp-Lab&theme=tokyonight" width="100%" alt="Top Languages by Commit (Danyp-Lab Ecosystem)" />
+        </picture>
       </td>
       <td width="33.33%" align="center">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Danyp-Lab&theme=tokyonight" width="100%" alt="Repositories per Language (Danyp-Lab Ecosystem)" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Danyp-Lab&theme=tokyonight" />
+          <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Danyp-Lab&theme=default" />
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Danyp-Lab&theme=tokyonight" width="100%" alt="Repositories per Language (Danyp-Lab Ecosystem)" />
+        </picture>
       </td>
       <td width="33.33%" align="center">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DanialPahlavan&theme=tokyonight" width="100%" alt="Productive Coding Time" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DanialPahlavan&theme=tokyonight" />
+          <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DanialPahlavan&theme=default" />
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DanialPahlavan&theme=tokyonight" width="100%" alt="Productive Coding Time" />
+        </picture>
       </td>
     </tr>
   </table>
@@ -212,6 +239,15 @@
 <div align="center">
   <img src="assets/featured-artifacts.svg" width="95%" alt="Featured Open-Source Engineering Artifacts Registry" />
 </div>
+
+<br/>
+
+| Domain | Featured Repositories | Focus & Architecture |
+| :--- | :--- | :--- |
+| **Computer Vision & Restoration** | [`VCGAN`](https://github.com/DanialPahlavan/VCGAN) • [`DeOldify`](https://github.com/DanialPahlavan/DeOldify) • [`yolo-playground`](https://github.com/Danyp-Lab/yolo-playground) • [`Image-Classification-CNN`](https://github.com/Danyp-Lab/Image-Classification-with-Convolutional-Neural-Networks) | GAN colorization, real-time object detection, ConvNet vision pipelines |
+| **RAG & Dense Retrieval** | [`atlas`](https://github.com/DanialPahlavan/atlas) • [`KoRC`](https://github.com/DanialPahlavan/KoRC) • [`PerDoc-mining-`](https://github.com/Danyp-Lab/PerDoc-mining-) • [`ACRM-for-moment-retrieval`](https://github.com/DanialPahlavan/ACRM-for-moment-retrieval) | Retrieval-augmented LMs, dense semantic indexing, document & moment retrieval |
+| **Quantization & Optimization** | [`1-bit-per-weight`](https://github.com/DanialPahlavan/1-bit-per-weight) • [`efficient-mixtures`](https://github.com/DanialPahlavan/efficient-mixtures) • [`DeepSMOTES`](https://github.com/DanialPahlavan/DeepSMOTES) | Sub-8-bit / 1-bit weights, mixture models, imbalanced deep learning |
+| **Research Stack & Education** | [`cs-research-stack`](https://github.com/Danyp-Lab/cs-research-stack) • [`PyLearn_Essential`](https://github.com/Danyp-Lab/PyLearn_Essential) • [`AIinFarsi`](https://github.com/Danyp-Lab/AIinFarsi) | Applied R&D tooling, Python & AI educational ecosystems |
 
 </details>
 
