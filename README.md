@@ -10,50 +10,32 @@
   <br/>
 
   <!-- Dynamic Typing Subtitle (Dark: Neon Cyan • Light: Deep Ocean Blue) -->
-  <a href="https://github.com/DanialPahlavan">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?lines=Senior+AI+Systems+Architect+%2810%2B+Years+Experience%29;PhD+Researcher+in+Artificial+Intelligence;Autonomous+AI+Agents+%26+Reasoning+Loops;Deep+Learning%2C+Computer+Vision+%26+RAG;Neural+Model+Optimization+%26+1-Bit+Quantization;Full-Stack+Python+%26+Systems+Engineering&font=Fira+Code&center=true&width=650&height=45&color=00f2fe&vCenter=true&pause=1200&size=17" />
-      <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com/?lines=Senior+AI+Systems+Architect+%2810%2B+Years+Experience%29;PhD+Researcher+in+Artificial+Intelligence;Autonomous+AI+Agents+%26+Reasoning+Loops;Deep+Learning%2C+Computer+Vision+%26+RAG;Neural+Model+Optimization+%26+1-Bit+Quantization;Full-Stack+Python+%26+Systems+Engineering&font=Fira+Code&center=true&width=650&height=45&color=0369a1&vCenter=true&pause=1200&size=17" />
-      <img src="https://readme-typing-svg.demolab.com/?lines=Senior+AI+Systems+Architect+%2810%2B+Years+Experience%29;PhD+Researcher+in+Artificial+Intelligence;Autonomous+AI+Agents+%26+Reasoning+Loops;Deep+Learning%2C+Computer+Vision+%26+RAG;Neural+Model+Optimization+%26+1-Bit+Quantization;Full-Stack+Python+%26+Systems+Engineering&font=Fira+Code&center=true&width=650&height=45&color=00f2fe&vCenter=true&pause=1200&size=17" alt="Danial Pahlavan - Dynamic Headline" />
-    </picture>
-  </a>
+  <a href="https://github.com/DanialPahlavan"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?lines=Senior+AI+Systems+Architect+%2810%2B+Years+Experience%29;PhD+Researcher+in+Artificial+Intelligence;Autonomous+AI+Agents+%26+Reasoning+Loops;Deep+Learning%2C+Computer+Vision+%26+RAG;Neural+Model+Optimization+%26+1-Bit+Quantization;Full-Stack+Python+%26+Systems+Engineering&font=Fira+Code&center=true&width=650&height=45&color=00f2fe&vCenter=true&pause=1200&size=17" />
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com/?lines=Senior+AI+Systems+Architect+%2810%2B+Years+Experience%29;PhD+Researcher+in+Artificial+Intelligence;Autonomous+AI+Agents+%26+Reasoning+Loops;Deep+Learning%2C+Computer+Vision+%26+RAG;Neural+Model+Optimization+%26+1-Bit+Quantization;Full-Stack+Python+%26+Systems+Engineering&font=Fira+Code&center=true&width=650&height=45&color=0369a1&vCenter=true&pause=1200&size=17" />
+    <img src="https://readme-typing-svg.demolab.com/?lines=Senior+AI+Systems+Architect+%2810%2B+Years+Experience%29;PhD+Researcher+in+Artificial+Intelligence;Autonomous+AI+Agents+%26+Reasoning+Loops;Deep+Learning%2C+Computer+Vision+%26+RAG;Neural+Model+Optimization+%26+1-Bit+Quantization;Full-Stack+Python+%26+Systems+Engineering&font=Fira+Code&center=true&width=650&height=45&color=00f2fe&vCenter=true&pause=1200&size=17" alt="Danial Pahlavan - Dynamic Headline" />
+  </picture></a>
 
   <br/><br/>
 
   <!-- Academic, Professional & Social Credentials -->
   <p>
-    <a href="https://github.com/Danyp-Lab">
-      <img src="https://img.shields.io/badge/Danyp--Lab-Applied_R%26D_Lab-00f2fe?style=flat-square&logo=github&logoColor=black" alt="Danyp-Lab R&D Hub" />
-    </a>
+    <a href="https://github.com/Danyp-Lab"><img src="https://img.shields.io/badge/Danyp--Lab-Applied_R%26D_Lab-00f2fe?style=flat-square&logo=github&logoColor=black" alt="Danyp-Lab R&D Hub" /></a>
     &nbsp;
-    <a href="https://github.com/orgs/Danyp-Lab/repositories?q=sort%3Astars">
-      <img src="https://custom-icon-badges.demolab.com/github/stars/Danyp-Lab?style=flat-square&label=Lab+Stars&color=f59e0b&labelColor=1f2937&logo=star&logoColor=white" alt="Danyp-Lab Stars" />
-    </a>
+    <a href="https://github.com/orgs/Danyp-Lab/repositories?q=sort%3Astars"><img src="https://custom-icon-badges.demolab.com/github/stars/Danyp-Lab?style=flat-square&label=Lab+Stars&color=f59e0b&labelColor=1f2937&logo=star&logoColor=white" alt="Danyp-Lab Stars" /></a>
   </p>
   <p>
-    <a href="https://scholar.google.com">
-      <img src="https://img.shields.io/badge/Google_Scholar-Publications-4285F4?style=flat-square&logo=google-scholar&logoColor=white" alt="Google Scholar" />
-    </a>
+    <a href="https://scholar.google.com"><img src="https://img.shields.io/badge/Google_Scholar-Publications-4285F4?style=flat-square&logo=google-scholar&logoColor=white" alt="Google Scholar" /></a>
     &nbsp;
-    <a href="https://orcid.org">
-      <img src="https://img.shields.io/badge/ORCID-Profile-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID" />
-    </a>
+    <a href="https://orcid.org"><img src="https://img.shields.io/badge/ORCID-Profile-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID" /></a>
     &nbsp;
-    <a href="https://www.linkedin.com/in/danialpahlavan/">
-      <img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
+    <a href="https://www.linkedin.com/in/danialpahlavan/"><img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
     &nbsp;
-    <a href="https://dev.to/danialpahlavan">
-      <img src="https://img.shields.io/badge/Dev.to-Articles-0A0A0A?style=flat-square&logo=devdotto&logoColor=white" alt="Dev.to" />
-    </a>
+    <a href="https://dev.to/danialpahlavan"><img src="https://img.shields.io/badge/Dev.to-Articles-0A0A0A?style=flat-square&logo=devdotto&logoColor=white" alt="Dev.to" /></a>
     &nbsp;
-    <a href="https://www.youtube.com/@DanyPahlavan">
-      <img src="https://img.shields.io/badge/YouTube-Channel-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube" />
-    </a>
+    <a href="https://www.youtube.com/@DanyPahlavan"><img src="https://img.shields.io/badge/YouTube-Channel-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube" /></a>
     &nbsp;
-    <a href="https://github.com/DanialPahlavan?tab=followers">
-      <img src="https://img.shields.io/github/followers/DanialPahlavan?style=flat-square&color=38bdf8&labelColor=1f2937&logo=github&logoColor=white" alt="Followers" />
-    </a>
+    <a href="https://github.com/DanialPahlavan?tab=followers"><img src="https://img.shields.io/github/followers/DanialPahlavan?style=flat-square&color=38bdf8&labelColor=1f2937&logo=github&logoColor=white" alt="Followers" /></a>
   </p>
 
 </div>
@@ -81,13 +63,11 @@ Bridging academic AI research with production-grade systems engineering — spec
 
   <!-- Adaptive Graphic SkillIcons Strip -->
   <p>
-    <a href="https://skillicons.dev">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=pytorch,tensorflow,python,cs,cpp,ts,js,linux,docker,git,bash,postgres&theme=dark" />
-        <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=pytorch,tensorflow,python,cs,cpp,ts,js,linux,docker,git,bash,postgres&theme=light" />
-        <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,python,cs,cpp,ts,js,linux,docker,git,bash,postgres&theme=dark" alt="Technical Stack Icons" />
-      </picture>
-    </a>
+    <a href="https://skillicons.dev"><picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=pytorch%2Ctensorflow%2Cpython%2Ccs%2Ccpp%2Cts%2Cjs%2Clinux%2Cdocker%2Cgit%2Cbash%2Cpostgres&theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=pytorch%2Ctensorflow%2Cpython%2Ccs%2Ccpp%2Cts%2Cjs%2Clinux%2Cdocker%2Cgit%2Cbash%2Cpostgres&theme=light" />
+      <img src="https://skillicons.dev/icons?i=pytorch%2Ctensorflow%2Cpython%2Ccs%2Ccpp%2Cts%2Cjs%2Clinux%2Cdocker%2Cgit%2Cbash%2Cpostgres&theme=dark" alt="Technical Stack Icons" />
+    </picture></a>
   </p>
 
   <!-- Geek Cyberpunk Verified Tech Stack Matrix -->
@@ -103,21 +83,13 @@ Bridging academic AI research with production-grade systems engineering — spec
 
   <!-- Live System Telemetry Status Indicators -->
   <p>
-    <a href="https://github.com/DanialPahlavan">
-      <img src="https://komarev.com/ghpvc/?username=DanialPahlavan&color=00f2fe&style=flat-square&label=PROFILE+TELEMETRY" alt="Profile Views" />
-    </a>
+    <a href="https://github.com/DanialPahlavan"><img src="https://komarev.com/ghpvc/?username=DanialPahlavan&color=00f2fe&style=flat-square&label=PROFILE+TELEMETRY" alt="Profile Views" /></a>
     &nbsp;
-    <a href="https://github.com/DanialPahlavan/DanialPahlavan/actions/workflows/snake.yml">
-      <img src="https://img.shields.io/github/actions/workflow/status/DanialPahlavan/DanialPahlavan/snake.yml?branch=main&label=CI%2FCD+PIPELINE&style=flat-square&color=38bdf8&logo=githubactions&logoColor=white" alt="Telemetry Pipeline Status" />
-    </a>
+    <a href="https://github.com/DanialPahlavan/DanialPahlavan/actions/workflows/snake.yml"><img src="https://github.com/DanialPahlavan/DanialPahlavan/actions/workflows/snake.yml/badge.svg?branch=main" alt="Telemetry Pipeline Status" /></a>
     &nbsp;
-    <a href="https://github.com/DanialPahlavan?tab=repositories">
-      <img src="https://img.shields.io/badge/REPOSITORIES-74+-00f2fe?style=flat-square&logo=github&logoColor=white" alt="Repositories" />
-    </a>
+    <a href="https://github.com/DanialPahlavan?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-74+-00f2fe?style=flat-square&logo=github&logoColor=white" alt="Repositories" /></a>
     &nbsp;
-    <a href="https://github.com/DanialPahlavan">
-      <img src="https://custom-icon-badges.demolab.com/badge/AGENTIC_CORE-ACTIVE_2026-8A2BE2?style=flat-square&logo=cpu&logoColor=white" alt="Agentic Core Status" />
-    </a>
+    <a href="https://github.com/DanialPahlavan"><img src="https://custom-icon-badges.demolab.com/badge/AGENTIC_CORE-ACTIVE_2026-8A2BE2?style=flat-square&logo=cpu&logoColor=white" alt="Agentic Core Status" /></a>
   </p>
 
   <br/>
@@ -169,20 +141,36 @@ Bridging academic AI research with production-grade systems engineering — spec
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DanialPahlavan&theme=github_dark" />
           <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DanialPahlavan&theme=default" />
-          <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DanialPahlavan&theme=github_dark" width="100%" alt="Top Languages by Commit (Personal Account)" />
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DanialPahlavan&theme=github_dark" width="425" alt="Top Languages by Commit (Personal Account)" />
         </picture>
       </td>
       <td width="50%" align="center" valign="middle">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Danyp-Lab&theme=github_dark" />
           <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Danyp-Lab&theme=default" />
-          <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Danyp-Lab&theme=github_dark" width="100%" alt="Repositories per Language (Danyp-Lab Ecosystem)" />
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Danyp-Lab&theme=github_dark" width="425" alt="Repositories per Language (Danyp-Lab Ecosystem)" />
         </picture>
       </td>
     </tr>
   </table>
 
 </div>
+
+<br/>
+
+<details>
+<summary><strong>🌆 3D Isometric Contribution Skyline</strong></summary>
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DanialPahlavan/DanialPahlavan/output-3d/profile-night-view.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DanialPahlavan/DanialPahlavan/output-3d/profile-green-animate.svg" />
+    <img src="https://raw.githubusercontent.com/DanialPahlavan/DanialPahlavan/output-3d/profile-night-view.svg" width="95%" alt="3D Isometric Contribution Skyline" />
+  </picture>
+</div>
+
+</details>
 
 <br/>
 
