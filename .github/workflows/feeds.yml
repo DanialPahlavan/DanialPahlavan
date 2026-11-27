@@ -1,0 +1,26 @@
+name: Update YouTube Feed in README
+
+on:
+  schedule:
+    # Run daily at 06:00 UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    name: Update README with Latest YouTube Videos
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Pull latest YouTube videos
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          comment_tag_name: "YOUTUBE-LIST"
+          feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=UCOQjtR08He3mWqCuOk7KWBQ"
+          max_post_count: 5
+          template: "- [$title]($url) ($date)$newline"
+          tag_post_pre_newline: true

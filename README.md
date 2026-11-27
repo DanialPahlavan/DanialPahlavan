@@ -25,6 +25,10 @@
     <a href="https://github.com/Danyp-Lab">
       <img src="https://img.shields.io/badge/Danyp--Lab-Applied_R%26D_Lab-00f2fe?style=flat-square&logo=github&logoColor=black" alt="Danyp-Lab R&D Hub" />
     </a>
+    &nbsp;
+    <a href="https://github.com/orgs/Danyp-Lab/repositories?q=sort%3Astars">
+      <img src="https://custom-icon-badges.demolab.com/github/stars/Danyp-Lab?style=flat-square&label=Lab+Stars&color=f59e0b&labelColor=1f2937&logo=star&logoColor=white" alt="Danyp-Lab Stars" />
+    </a>
   </p>
   <p>
     <a href="https://scholar.google.com">
@@ -45,10 +49,6 @@
     &nbsp;
     <a href="https://www.youtube.com/@DanyPahlavan">
       <img src="https://img.shields.io/badge/YouTube-Channel-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube" />
-    </a>
-    &nbsp;
-    <a href="https://github.com/DanialPahlavan?tab=repositories&sort=stargazers">
-      <img src="https://custom-icon-badges.demolab.com/github/stars/DanialPahlavan?style=flat-square&color=f59e0b&labelColor=1f2937&logo=star&logoColor=white" alt="GitHub Stars" />
     </a>
     &nbsp;
     <a href="https://github.com/DanialPahlavan?tab=followers">
@@ -123,7 +123,7 @@ Bridging academic AI research with production-grade systems engineering — spec
   <br/>
 
   <!-- Continuous Contribution & Activity Telemetry (Compact Side-by-Side) -->
-  <table border="0" align="center">
+  <table width="100%" align="center">
     <tr align="center">
       <td width="50%" align="center" valign="middle">
         <picture>
@@ -144,46 +144,39 @@ Bridging academic AI research with production-grade systems engineering — spec
 
   <br/>
 
-  <!-- High-Density Telemetry Matrix (Row 1: 2 Cards • Row 2: 3 Cards) -->
-  <table border="0" align="center">
+  <!-- High-Density Telemetry Matrix (Row 1: Velocity & Schedule • Row 2: Languages) -->
+  <table width="100%" align="center">
     <tr align="center">
-      <td width="50%" align="center">
+      <td width="60%" align="center" valign="middle">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=DanialPahlavan&theme=tokyonight&hide_border=true&background=0d1117&ring=00f2fe&fire=38bdf8&currStreakLabel=00f2fe&dates=e2e8f0" />
           <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=DanialPahlavan&theme=default&hide_border=true&background=ffffff&ring=0369a1&fire=0284c7&currStreakLabel=0369a1&dates=0f172a" />
-          <img src="https://streak-stats.demolab.com/?user=DanialPahlavan&theme=tokyonight&hide_border=true&background=0d1117&ring=00f2fe&fire=38bdf8&currStreakLabel=00f2fe&dates=e2e8f0" height="135" alt="Engineering Velocity Streak" />
+          <img src="https://streak-stats.demolab.com/?user=DanialPahlavan&theme=tokyonight&hide_border=true&background=0d1117&ring=00f2fe&fire=38bdf8&currStreakLabel=00f2fe&dates=e2e8f0" width="100%" alt="Engineering Velocity Streak" />
         </picture>
       </td>
-      <td width="50%" align="center">
+      <td width="40%" align="center" valign="middle">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DanialPahlavan&theme=tokyonight" />
-          <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DanialPahlavan&theme=default" />
-          <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DanialPahlavan&theme=tokyonight" height="135" alt="GitHub Profile Summary" />
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DanialPahlavan&theme=github_dark" />
+          <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DanialPahlavan&theme=default" />
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DanialPahlavan&theme=github_dark" width="100%" alt="Productive Coding Time" />
         </picture>
       </td>
     </tr>
   </table>
-  <table border="0" align="center">
+  <table width="100%" align="center">
     <tr align="center">
-      <td width="33.33%" align="center">
+      <td width="50%" align="center" valign="middle">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Danyp-Lab&theme=tokyonight" />
-          <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Danyp-Lab&theme=default" />
-          <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Danyp-Lab&theme=tokyonight" width="100%" alt="Top Languages by Commit (Danyp-Lab Ecosystem)" />
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DanialPahlavan&theme=github_dark" />
+          <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DanialPahlavan&theme=default" />
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DanialPahlavan&theme=github_dark" width="100%" alt="Top Languages by Commit (Personal Account)" />
         </picture>
       </td>
-      <td width="33.33%" align="center">
+      <td width="50%" align="center" valign="middle">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Danyp-Lab&theme=tokyonight" />
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Danyp-Lab&theme=github_dark" />
           <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Danyp-Lab&theme=default" />
-          <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Danyp-Lab&theme=tokyonight" width="100%" alt="Repositories per Language (Danyp-Lab Ecosystem)" />
-        </picture>
-      </td>
-      <td width="33.33%" align="center">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DanialPahlavan&theme=tokyonight" />
-          <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DanialPahlavan&theme=default" />
-          <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DanialPahlavan&theme=tokyonight" width="100%" alt="Productive Coding Time" />
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Danyp-Lab&theme=github_dark" width="100%" alt="Repositories per Language (Danyp-Lab Ecosystem)" />
         </picture>
       </td>
     </tr>
@@ -205,12 +198,12 @@ Bridging academic AI research with production-grade systems engineering — spec
   <img src="assets/neural-architecture.svg" width="95%" alt="Neural Architecture & Autonomous Agent Topology" />
   <br/><br/>
   <!-- Radar Chart & Terminal Simulator Side-by-Side -->
-  <table border="0" align="center">
+  <table width="100%" align="center">
     <tr align="center">
-      <td width="50%" align="center" valign="middle">
+      <td width="42%" align="center" valign="middle">
         <img src="assets/radar-chart.svg" width="100%" alt="AI Systems Architecture Radar" />
       </td>
-      <td width="50%" align="center" valign="middle">
+      <td width="58%" align="center" valign="middle">
         <img src="assets/terminal-agent.svg" width="100%" alt="Autonomous Agent Terminal Simulator" />
       </td>
     </tr>
@@ -248,6 +241,22 @@ Bridging academic AI research with production-grade systems engineering — spec
 | **RAG & Dense Retrieval** | [`atlas`](https://github.com/DanialPahlavan/atlas) • [`KoRC`](https://github.com/DanialPahlavan/KoRC) • [`PerDoc-mining-`](https://github.com/Danyp-Lab/PerDoc-mining-) • [`ACRM-for-moment-retrieval`](https://github.com/DanialPahlavan/ACRM-for-moment-retrieval) | Retrieval-augmented LMs, dense semantic indexing, document & moment retrieval |
 | **Quantization & Optimization** | [`1-bit-per-weight`](https://github.com/DanialPahlavan/1-bit-per-weight) • [`efficient-mixtures`](https://github.com/DanialPahlavan/efficient-mixtures) • [`DeepSMOTES`](https://github.com/DanialPahlavan/DeepSMOTES) | Sub-8-bit / 1-bit weights, mixture models, imbalanced deep learning |
 | **Research Stack & Education** | [`cs-research-stack`](https://github.com/Danyp-Lab/cs-research-stack) • [`PyLearn_Essential`](https://github.com/Danyp-Lab/PyLearn_Essential) • [`AIinFarsi`](https://github.com/Danyp-Lab/AIinFarsi) | Applied R&D tooling, Python & AI educational ecosystems |
+
+</details>
+
+<br/>
+
+<details>
+<summary><strong>📺 Latest YouTube Videos & AI Demos</strong></summary>
+<br/>
+
+<!-- YOUTUBE-LIST:START -->
+- [20 must-know AI concept #ai #coding #interviews #algomaster](https://www.youtube.com/shorts/AfmWJvqtXm4)
+- [Creativity with dany Live Stream](https://www.youtube.com/watch?v=wjKiu69Qu_k)
+- [[4K, Colorized Restoration] India in 1906: A Glimpse into History](https://www.youtube.com/watch?v=O299Y-jqlHA)
+- [[Enhanced, colorized] Scenes of Iran during period of exploration, before oil was discovered in 1908](https://www.youtube.com/shorts/KgK0D6awOSc)
+- [Essential Windows Shortcuts in Minutes | Boost Productivity with These Quick Tips! #windows](https://www.youtube.com/shorts/J2YjussZckg)
+<!-- YOUTUBE-LIST:END -->
 
 </details>
 
